@@ -1,0 +1,94 @@
+.hcn:before{
+   
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#000;
+        width: 100%;
+        height: 100%;
+        opacity : 0.7;
+  
+}
+/*@media (max-width:992px){
+    #cnhv{
+        display: none;
+    }
+}*/
+.gv{
+    background-attachment: fixed;
+    background-image: url('img/but.jpg');
+    position: relative;
+}
+.gv:before{
+    content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#000;
+        width: 100%;
+        height: 100%;
+        opacity : 0.7;
+} 
+.loiich{
+    background-attachment: fixed;
+    background-image: url('img/laptop.jpg');
+    position: relative;
+}
+.loiich:before{
+    content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#000;
+        width: 100%;
+        height: 100%;
+        opacity : 0.7;
+}
+.tag{
+    opacity: 0.9;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.khoahocnay{
+    padding: 7px;
+    width: 451px;
+    background-color: rgb(40, 168, 61) !important;
+    color: white !important;
+  
+}
+.duongdoc{
+    margin-top: 70px;
+    
+    height: 450px;
+    width: 0px;
+    border: 1px solid white;
+}
+.glass{
+    background-color: rgba(255,255,255,0);
+}
+.dauvao{
+    background-color: rgba(255,255,255,0);width: 80%;
+}
+@media (max-width:992px){
+.hoten{
+    margin: 0 auto;
+}
+.sdt{
+    margin: 0 auto;
+}
+.diachi{
+    margin: 0 auto;
+}
+.but{
+    margin: 0 auto;
+    display: block;
+}
+}
+.buttonn{
+    padding-left: 10px; padding-right: 10px;
+}

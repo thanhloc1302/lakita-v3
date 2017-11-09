@@ -1,0 +1,91 @@
+@media (min-width:1400px){
+    header{
+        background-position: center 128px;
+    }
+}
+@media (min-width:993px){
+    header{
+        background-attachment: fixed;
+        position: relative;
+    }
+    #carousel-example-generic{
+        background-attachment: fixed;
+    }
+    .carousel-inner p {
+        color: #31B051;
+        margin-top: 10px;
+        font-size: 16px;
+        width: 900px;
+    }
+    .carousel-inner #cmt {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+}
+@media(max-width:992px){
+    header{
+        margin-top: 0px;
+    }
+    /*    .trans{
+            position: absolute;
+            background-color: #000;
+            width: 100%;
+            height: 64%;
+            top: 0px;
+            left: 0px;
+            opacity: 0.4; 
+        }
+        .gr1{
+                z-index: 1000000;
+        position: relative;
+        }
+        .navbar{
+               z-index: 100000; 
+        }*/
+    .navbar-nav{
+        background-color: #532F1F;
+    }
+    header{
+        background: url(img/index2/bg-2.png) no-repeat #532F1F;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .group2 .gr2-col-1{
+        height: 260px;
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        padding-bottom: 20%;
+    }
+    .group2 .gr2-col-1{
+        margin-top: 25px;
+    }
+    .group2 .gr2-col-1:first-child{
+        margin-top: -10px;
+    }
+    .gr1 h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .gr3-row-1 {
+        padding: 0 10px;
+    }
+    .gr3-row2-2{
+        margin-top:20px;
+    }
+
+}
+@media (max-width:500px){
+    .register .price_sale, .register .price_root{
+        font-size: 22px;
+    }
+    .num-day, .num-hour, .num-minute, .num-second {
+        font-size: 63px;
+    }
+    #register{
+        padding: 0 20px;
+    }
+}

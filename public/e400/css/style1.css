@@ -1,0 +1,549 @@
+body{color:#212121;font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;font-size:14px;}.instructor-desc{padding:20px 0px;font-size:16px}.btn-preview{color:#fff;background-color:#4985b8;border-color:#4178a7;font-weight:300;padding:10px;}a.btn-preview:hover{color:#ccc;}.hide-mobile{display:block;}.show-mobile-only{display:none;}.fa-star.rated{color:#D94D38;}.fa-star{color:#b6b6b6;}.fa{font-size:15px;width:15px;}.btn-small-preview{color:#fff;background-color:#4985b8;border-color:#4178a7;font-weight:300;padding:3px;font-size:12px;position:relative;top:-1px;}#vid{}.header{background-color:#fff;border-top:4px solid #38B34A;box-shadow:0px 1px 2px #ccc;position:relative;}.header-middle img{width:auto;}.header-middle{text-align:center;}.detail-top{padding-bottom:30px;background-image:url('https://biquyetlamchuexcel1.lakita.vn/img/top-bg2.jpg');background-color:#4E0909;background-position:center;padding-top:30px;font-size:20px;font-weight:200;color:#fff;}.detail-top .ques{color:#41A85F;font-size:140px;font-weight:bold;vertical-align:top;}.detail-top .emph{background-color:red;color:#fff;padding:15px;margin-left:-15px;display:inline-block;border-radius:5px;}.detail-top .title{font-size:35px;font-weight:700;margin:30px 0px 10px 0px;line-height:1.2;}.detail-top .sub-title{font-size:15px;}.course-rating-point,.course-rating-people{display:inline-block;}.course-rating-people{margin-left:10px;}.course-author,.enrolled{margin:10px 0px;}.course-detail{margin-top:10px;margin-bottom:10px;}.course-info{border-top:1px solid #ccc;border-width:80%;padding-top:10px;margin-top:10px;padding-left:0px;}.course-player{height:0px;padding-bottom:40%;}.course-player iframe{position:absolute;left:0px;top:0px;width:100%;height:100%;}.course-detail-bottom{padding-left:0px;padding-right:0px;}.course-preview{margin:10px 0px 10px 0px;padding-left:0px;padding-top:10px;}.info-row div{display:inline-block;width:50%;vertical-align:top;color:#353535;}.info-row .lft{width:100px;}.info-row .rght{font-weight:bold;}.detail-middle{background-color:#41A85F;padding-top:20px;padding-bottom:20px;padding-left:0px;padding-right:0px;color:#fff;font-weight:300;}.instructor-img{background-image:url('https://lamchuexcel3.pedia.vn/images/nguyen-danh-tu.png');width:200px;height:200px;border-radius:50%;background-size:100% 100%;display:inline-block;border:2px solid #fff;position:relative;top:25px;}.detail-middle .title{text-align:center;color:#fff;font-weight:500;font-size:35px;margin-bottom:10px;padding-left:15px;padding-right:15px;}.detail-middle .middle-card{text-align:center;padding-left:50px;padding-right:20px;}.detail-middle .middle-card div{margin:10px 0px;}.detail-bottom{border-top:1px solid #888;min-height:200px;background:#eee;padding:20px 0px;}.detail-bottom .title{font-size:18px;font-weight:bold;margin:10px 0px;}.detail-bottom .sub-title{font-size:15px;font-weight:bold;margin:10px 0px;}.vid-desc-title{margin-top:10px;text-align:center;dé font-weight: bold;}.vid-desc-title p{margin:2px;}.vid-desc-title.emph{background-color:red;color:#fff;padding:5px;display:inline-block;border-radius:5px;}.vid-desc-body{margin-top:15px;text-align:justify;}.vid-desc-body i{color:#41A85F;margin-right:5px;}.curriculumns{border-top:1px solid #ccc;}.section{margin:10px 0px;padding:10px 0px;font-size:15px;font-weight:bold;}.lesson{border-top:1px solid #ccc;margin:10px 0px;padding:10px 0px;}.lesson-idx{width:100px;display:inline-block;}.lesson-title{display:inline-block;}.lesson-length{display:inline-block;text-align:right;float:right;}.instructor{padding-top:20px;}.instructor .title{font-weight:bold;margin:10px 0px;}.rating-point{color:#D94D38;font-size:80px;}.testimonials2{color:#fff;//padding-top:40px;//padding-bottom:20px;padding-left:0px;padding-right:0px;text-align:center;border-top:1px #ccc solid;background:url('https://biquyetlamchuexcel1.lakita.vn/img/bottom-bg3.jpg') rgb(48, 51, 54);background-size:auto 100% ;background-repeat:no-repeat;}.testimonials2 .new_emph{border:1px solid red;border-radius:30px;height:65px;width:300px;margin:auto;}.testimonials2 .new_price,.testimonials2 .old_price{display:inline-block;height:65px;}.testimonials2 .new_price{background-color:red;float:right;width:50%;border-radius:0px 65px 65px 0px;margin:-1px;}.testimonials2 .old_price{line-height:72px;font-size:25px;font-weight:300;}.testimonials2 .title{font-size:25px;font-weight:300;margin:30px 0px 10px 0px;line-height:1.2;}.emp{background-color:#ff0000;color:#fff;width:200px;border-radius:5px;margin:10px auto;}.emp div{display:inline-block;}.old_price{text-decoration:line-through;font-size:15px;line-height:30px;position:relative;top:-7px;}.cta{font-size:30px;}.form_c3 .title{font-size:20px;font-weight:300;margin-top:-10px;}.form-group{text-align:center;}input[type='text']{width:90%;display:inline-block;height: 45px;}.notf{margin-top:30px;padding:10px;}#ipt_submit{width:100%;}#ipt_submit:hover{background-color:#276f98;color:#fff;}.countdown .line-1{font-size:25px;}.countdown .countdown-content{display:block;width:100%;margin:0 auto;}.countdown .countdown-content .coutdown-item{display:inline-block;background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");width:90px;height:126px;text-align:center;margin:10px 10px 15px 10px;}.countdown .countdown-content .coutdown-item .top{font-size:60px;font-weight:bold;color:#212121;margin-left:5px;}.countdown .countdown-content .coutdown-item .bottom{font-size:18px;color:#212121;}
+@media(min-width: 1900px)
+    {
+  .testimonials2{
+    background-size: 100% auto !important;
+  }
+  #detail_footer_focus .fix_lg{
+    text-align: center;
+    display: inline-block;
+  }
+    }
+
+  #detail_footer_focus{
+    text-align: right;
+    padding-right: 30px;
+  }
+  .form-group{
+    text-align: left;
+    padding-left: 30px;
+  }
+  .form-control{
+    width: 50% !important;
+  }
+  #ipt_submit{
+    width: 50% !important;
+  }
+    
+.form-arrow {
+	background: #31B051 url("https://lakita.vn/public/e400/img/arrows.png") no-repeat scroll center center;
+	display: inline-block;
+	height: 72px;
+	width: 72px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: -55px 0 0;
+}
+.form-bg {
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	margin-top: 35px;
+	padding: 20px;
+}
+#header .form-bg{
+  margin-top: -30px !important;
+}
+.form-bg h3 {
+	margin: 10px 0 20px;
+}
+@media(min-width: 992px){
+  .course-player{
+    padding-bottom: 40%;
+  }
+  .course-info>div{
+    padding-left: 10px;
+  }
+  .course-preview{
+    padding-left: 10px;
+  }
+}
+@media(min-width: 768px){
+  .course-player{
+    padding-bottom: 40%;
+  }
+  .course-preview{
+    float:right;
+    padding-left: 10px;
+  }
+  .course-info>div{
+    padding-left: 10px;
+  }
+}
+@media (max-width: 766px){
+  .course-player{
+    padding-bottom: 60%;
+  }
+  .show-mobile-only{
+    display: block;
+  }
+  .hide-mobile{
+    display: none;
+  }
+  .lesson-length{
+    display: none;
+  }
+}
+
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+
+/*----------- Hotline -------------*/
+.wrap_fixed_bottom {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+ 
+    bottom: 0;
+    overflow: hidden;
+    height: 38px;
+    background: rgb(237, 237, 237);
+	    border-top: solid 1px #C4C4C4;
+}
+.tag_hotline {
+    padding: 0px 23px;
+    text-transform: uppercase;
+    background: #EF1919;
+    font-weight: 700;
+    position: relative;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+	    color: #fff;
+}
+.tag_hotline .arrow_hotline {
+    width: 0;
+    height: 0;
+    border: 15px solid #EF1919;
+    border-top: 19px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.main_nav_hotline {
+    float: left;
+    //margin-left: 40px;
+    height: 38px;
+    line-height: 38px;
+}
+.main_nav_hotline ul li {
+    border-left: none;
+    float: left;
+    margin-right: 15px;
+    /* border: solid 1px; */
+    font-weight: bold;
+    border-right: solid 1px #D8D8D8;
+    padding-right: 15px;
+	list-style: none;
+}
+
+.nttkm {
+    width: 282px;
+    
+    z-index: 99999;
+   
+    bottom: 0px;
+    /* display: none; */
+    float: left;
+    /* overflow: hidden; */
+}
+.nttkm-title {
+    height: 38px;
+    background-color: #337AB7;
+    line-height: 38px;
+    text-align: center;
+}
+.nttkm-title span {
+    color: white;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 38px;
+  
+    line-height: 38px;
+}
+.show_dkntt {
+    cursor: pointer;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+    padding:19px 3px 18px 45px;
+    background-color: #fff;
+    font-family: inherit;
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    color: #262626;
+    display: block;
+    font-size: 1em;
+    margin: 0 0 13px 0;
+    padding: 0.75em;
+    height: 34px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear border-radius: 6px;
+    border: 1px solid #8095a8;
+    border-radius: 5px;
+}
+#dang-ky button{
+        border-color: #1779a2;
+    color: #fff;
+         background-color: #31B051;
+        margin-bottom: 0;
+    width: 100%;
+        border-radius: 2px;
+            color: #fff;
+            border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1.0625em;
+    padding-left: 2em;
+    font-size: 1em;
+
+}
+.ads{
+  height: 200px;
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: rgb(240, 247, 242);
+    box-shadow: 0 0 2px 2px gray;
+    z-index: 100000;
+    border-radius: 6px 0 0 0;
+    display: none;
+}
+.ads h4{
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+  line-height: 25px;
+  width: 90%;
+}
+.ads a{
+  padding: 10px 15px;
+  background: #207345;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  width: 95px;
+  float: left;
+  margin-left: 40px;
+  text-align: center;
+}
+#not_receipt{
+  background: red;
+}
+#header .row {
+    height: 100%;
+    border-bottom: none; 
+}
+@media (min-width: 768px) and (max-width: 1024px){
+#header .form-bg{
+  margin-top: 35px !important;
+}
+.navbar-collapse.collapse {
+    
+    height: 0 !important;
+   
+    visibility: hidden !important;
+    
+}
+.form-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 35px;
+    padding: 20px;
+    width: 60%;
+    MARGIN: 65PX AUTO;
+	
+}
+#register {
+        opacity: 1;
+    float: left;
+    margin-left: 37% !important;
+    margin-bottom: 30px;
+}
+#gallery h2 {
+    margin-bottom: 48px;
+    margin-top: 30px !important;
+}
+video {
+        width: 100% !important;
+}
+#header .header-margin {
+  
+    height: 13%;
+}
+  .header-centred .header-txt-small {
+    font-size: 13pt !important;
+   
+}
+#header .header-txt-color {
+    font-size: 10pt;
+   
+}
+#header {
+   
+    height: 1009px;
+    max-height: 1110px;
+   
+}
+}
+@media (max-width: 766px){
+#header .form-bg{
+  margin-top: 35px !important;
+}
+  .header-centred .header-txt-small {
+    font-size: 13pt !important;
+   
+}
+#header .header-txt-color {
+    font-size: 10pt;
+   
+}
+#header {
+   
+    height: 1009px;
+    max-height: 1110px;
+   
+}
+}
+video{
+width:560px;
+ 
+}
+#register{
+opacity: 1;float: left;margin-left: 25%;
+}
+@media (max-width: 480px){
+#header .form-bg{
+  margin-top: 35px !important;
+}
+
+
+
+.logo-cont a img {
+    width: 100%;
+    margin-top: 9px;
+}
+#register{
+    margin-left: 19%;
+    margin-bottom: 35px;
+}
+#about h2 {
+    margin-bottom: 13px;
+    font-size: 23px;
+    line-height: 25px;
+}
+#about .about-cont {
+    padding: 20px 0 8px;
+}
+#features .feature {
+  
+    margin-bottom: 25px;
+   
+}
+.fb-like{
+width:320px;
+overflow:hidden;
+margin-left: 0 !important;
+}
+.fb-like span{
+width:320px !important;
+}
+.fb-like iframe{
+ width:320px !important;
+}
+#header .header-margin {
+    height: 7%;
+}
+#testimonials h2 {
+    font-size: 20px;
+}
+#gallery h2 {
+     margin-bottom: 10px; 
+    margin-top: 15px !important;
+    font-size: 19px;
+}
+video{
+width: 110%;
+    margin-left: -15px;
+    height: 236px;
+}
+}
+
+.wrap-icon-fullname:before{
+    content: "\f007";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-fullname {
+    position: relative;
+}
+.wrap-icon-email:before{
+    content: "\f0e0";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 13px;
+    color:#d3d3d3;
+    font-size: 17px
+}
+.wrap-icon-email {
+    position: relative;
+}
+
+
+.wrap-icon-phone:before{
+    content: "\f095";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-phone {
+    position: relative;
+}
+
+.wrap-icon-address:before{
+    content: "\f041";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-address {
+    position: relative;
+}
+
+.wrap-icon-province:before{
+    content: "\f192";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-province, .wrap-icon-district {
+    position: relative;
+}
+
+
+.wrap-icon-district:before{
+    content: "\f124";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+
+
+
+#name,#email, #phone, #dia_chi, #tinh, #quan{
+    padding:19px 3px 18px 45px
+}
+#col-md-6-1{
+    width: 66%;
+}
+.wrap-icon-fullname1:before{
+    content: "\f007";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-email1:before{
+    content: "\f0e0";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    color:#d3d3d3;
+    font-size: 17px
+}
+
+.wrap-icon-phone1:before{
+    content: "\f095";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 243px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-address1:before{
+    content: "\f041";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-province1:before{
+    content: "\f192";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 16px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+.wrap-icon-district1:before{
+    content: "\f124";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 9px;
+    left: 243px;
+    color:#d3d3d3;
+    font-size: 19px
+}
+
+ul{
+    list-style-type:none;
+}
+ul.list-learn{
+    margin: 0 0 10px 0px;
+
+}
+.form-curse{
+    background: url("../img/bg.png");
+    background-repeat: no-repeat;
+        min-height: 560px;
+        background-size: cover;
+}
+.gr1 h3{
+        color: #fff;
+}
+.gr1>p{
+       font-size: 20px; 
+}

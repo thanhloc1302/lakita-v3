@@ -1,0 +1,363 @@
+/*
+Create by Kieu Quang Vinh
+Website: http://www.kieuquangvinh.com
+
+*/
+body {
+    min-width: 320px;
+    font-family: Roboto;
+    font-size: 19px;
+    color: #000;
+}
+img { 
+    max-width: 100%;
+}
+.section-inner {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+header { 
+    overflow: hidden;
+}
+.banner { 
+    margin-top: 50px;
+}
+.menu {
+    border-top: 7px solid #356803;
+    background-color: #F8F8F8;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+.menu .navbar { 
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.menu .navbar a { 
+    text-transform: capitalize;
+}
+.menu .navbar .active a {
+    font-weight: bold;
+}
+.padding15-0 {
+    padding: 15px 0;
+}
+.padding20-0 {
+    padding: 20px 0;
+}
+.table-icon td {
+    padding: 5px;
+}
+.table-icon .glyphicon {
+    color: orange;
+}
+.table-icon.table-icon-2 .glyphicon {
+    color: #0088cc;
+}
+.table-icon.table-icon-3 .glyphicon {
+    color: green;
+}
+.table-icon.table-icon-3 td {
+    vertical-align: top;
+}
+iframe {
+    max-width: 560px;
+    width: 100%;
+    border-radius: 3px;
+}
+.section-title {
+    margin: 30px 0 20px;
+    font-family: serif;
+    color: #356803;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.content .section-title small {
+    text-transform: none;
+    font-size: 14px;
+}
+.testimonials img { 
+    max-width: 80px;
+    box-shadow: 0 1px 5px #ccc;
+}
+.testimonials .testimonial {
+    background-color: #E6F4E1;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+    box-shadow: 0 1px 5px #ccc;
+    margin-bottom: 10px;
+}
+.tickets {
+    margin: 0 auto;
+}
+.tickets td { 
+    padding: 0 5px;
+}
+.tickets img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #333;
+    max-width: 180px;
+    width: 100%;
+}
+.moneyback {
+    margin: 0 auto;
+}
+.moneyback img {
+    max-width: 200px;
+    width: 100%;
+}
+.guarantee .moneyback {
+    max-width: 560px;
+    background: #f8f8f8;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #ccc;
+}
+.btn-container {
+    margin: 20px 0;
+}
+.btn-container table { 
+    margin: 0 auto;
+}
+.reg-button {
+    background: #1fba04 none repeat scroll 0 0;
+    border-color: #2dbe60;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: color 0.2s linear 0s, background 0.2s linear 0s, border-color 0.2s linear 0s, text-shadow 0.2s linear 0s;
+}
+.reg-button:hover {
+    color: white;
+    text-decoration: none;
+    background: #6ee003 none repeat scroll 0 0;
+}
+.mybtn {
+    background: #6ee003 linear-gradient(to bottom, #6ee003 5%, #54b300 100%) repeat scroll 0 0;
+    border: 1px solid #1fba04;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 0 #caefab;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #aade7c;
+}
+.mybtn:hover {
+    color: white;
+    text-decoration: none;
+    background: #54b300 linear-gradient(to bottom, #54b300 5%, #6ee003 100%) repeat scroll 0 0;
+}
+.mybtn:active {
+    position: relative;
+    top: 1px;
+}
+.form { 
+    max-width: 560px;
+}
+.form .row { 
+    margin: 8px 0;
+}
+.form .row small {
+    font-size: 12px;
+    line-height: 13px;
+}
+.form .tickets label {
+    margin-right: 10px;
+}
+.form input.full-size {
+    width: 100%;
+}
+.form .small { 
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #333;
+    font-style: italic;
+}
+.form select.form-control { 
+    max-width: 25%;
+    display: inline-block;
+}
+.images {
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+.images .img { 
+    width: 33%;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+.hotline {
+    margin-top: 10px;
+    font-size: 26px;
+}
+.hotline .course-hotline {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.hotline small {
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+}
+.page-register .logo img { 
+    max-width: 180px;
+}
+.first-text {
+    color: red; font-size: 24px
+}
+.header-mobile {
+    display: none;
+}
+.header-pc {
+    display: inline-block;
+}
+@media all and (max-width: 360px) {
+    body { 
+        font-size: 16px;
+    }
+    .first-text {
+        font-size: 20px;
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    .moneyback img {
+        max-width: 140px;
+    }
+    .moneyback h3 { 
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .images .img { 
+        width: 32%;
+    }
+    .btn-container img { 
+        max-width: 30px;
+    }
+    .reg-button {    
+        font-size: 1.3rem;
+        padding: 10px 15px;
+        font-family: Tahoma;
+    }
+    .form .col-xs-4 { 
+        text-align: right;
+    }
+    .form select.form-control { 
+        max-width: 25%;
+        padding: 0;
+    }
+    .header-pc {
+        display: none;
+    }
+    .header-mobile {
+        display: inline-block;
+    }
+}
+/* MOBILE NAV */
+.mobile-nav {
+    display: none;
+    border-top: 5px solid #356803;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    z-index: 999;
+}
+.mobile-nav nav { 
+    max-width: 560px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mobile-nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.mobile-nav li { 
+    float: left;
+    margin: 0 2%;
+}
+.mobile-nav li:hover a, .mobile-nav li:active a { 
+    background-color: #333;
+    color: white;
+}
+.mobile-nav li a { 
+    display: block;
+    padding: 5px 10px;
+    border-radius: 0 0 3px 3px;
+    cursor: pointer;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+}
+.mobile-nav li a div { 
+    font-size: 14px;
+}
+.mobile-nav .register a { 
+    color: orange;
+}
+@media all and (max-width: 560px) {
+    .mobile-nav li { 
+        margin: 0 3px;
+    }
+}
+@media all and (max-width: 480px) {
+    .mobile-nav li { 
+        margin: 0 1px;
+    }
+    .mobile-nav li a { 
+        padding: 5px 5px;
+    }
+}
+@media all and (max-width: 420px) {
+    .mobile-nav li { 
+        margin: 0 1px;
+    }
+    .mobile-nav li a { 
+        padding: 5px 5px;
+    }
+    .mobile-nav li a div { 
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 380px) {
+    .mobile-nav li { 
+        margin: 0 1px;
+    }
+    .mobile-nav li a { 
+        padding: 5px 5px;
+    }
+    .mobile-nav li a div { 
+        font-size: 12px;
+    }
+    .mobile-nav .detail {
+        display: none;
+    }
+}

@@ -1,0 +1,150 @@
+.hcn:before{
+   
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#000;
+        width: 100%;
+        height: 100%;
+        opacity : 0.7;
+  
+}
+/*@media (max-width:992px){
+    #cnhv{
+        display: none;
+    }
+}*/
+.gv{
+    background-image: url(img/background-lecture.jpg);
+    background-size: cover;
+}
+.loiich{
+    background: rgba(230,232,220,1);
+    position: relative;
+    padding-bottom: 2%;
+}
+.loiich:before{
+    content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity : 0.7;
+}
+.tag{
+    opacity: 0.9;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+.khoahocnay{
+    padding: 7px;
+    width: 451px;
+    background-color: rgb(40, 168, 61) !important;
+    color: white !important;
+  
+}
+.duongdoc{
+    margin-top: 70px;
+    
+    height: 450px;
+    width: 0px;
+    border: 1px solid white;
+}
+.glass{
+    background-color: rgba(255,255,255,0);
+}
+.dauvao{
+    background-color: rgba(255,255,255,0);width: 80%;
+}
+
+.feature {
+    background: rgba(21,17,66,0.85);
+    padding-bottom: 5%;
+}
+
+.tittle-feature {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin-top: 10%;
+}
+
+.des-feature {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    line-height: 50px;
+}
+
+.block {
+    background: rgba(255,255,255,0.21);
+    padding: 0;
+}
+
+.contents {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.name-feature {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 4% 0;
+}
+
+.content-feature {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.fea {
+    background-image: url(img/background-feature.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .block {
+        height: 160px;
+        width: 48% !important;
+    }
+    
+    .block1, .block3 {
+        margin-right: 4%;
+    }
+    
+    .block3, .block4 {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width:992px){
+.hoten{
+    margin: 0 auto;
+}
+.sdt{
+    margin: 0 auto;
+}
+.diachi{
+    margin: 0 auto;
+}
+.but{
+    margin: 0 auto;
+    display: block;
+}
+}
+.buttonn{
+    padding-left: 10px; padding-right: 10px;
+}

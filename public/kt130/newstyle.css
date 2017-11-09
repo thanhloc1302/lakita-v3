@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+	#img-rgt {
+		width: 30%;
+	}
+
+	#img-contact {
+		width: 40%;
+	}
+
+	#img-contact {
+		margin-top: -45%;
+		margin-left: -28.1%;
+	}
+}
+
+@media (min-width: 768px) {
+	#img-rgt, #img-contact {
+		width: 20%;
+	}
+
+	#img-contact {
+		margin-top: -45%;
+		margin-left: -14.1%;
+	}
+}
+
+@media (min-width: 992px) {
+	#img-rgt, #img-contact {
+		width: 15%;
+	}
+
+	#img-contact {
+		margin-top: -15%;
+		margin-left: -10.6%;
+	}
+}

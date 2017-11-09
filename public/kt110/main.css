@@ -1,0 +1,914 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:24:12 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:28:04 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:27:49 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:27:57 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:27:32 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+div.header {
+  position: relative;
+  background-image: -webkit-linear-gradient(top, rgba(41, 35, 35, 0.64), rgba(41, 35, 35, 0.64)), url("../kt110/img/header-bg.jpg"); }
+  div.header div.logo {
+    width: 163px;
+    height: 37px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 100px; }
+    div.header div.logo img {
+      display: block;
+      width: 100%; }
+  div.header p.course {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 38px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 400; }
+  div.header h1.course_name {
+    margin-top: 20px;
+        font-size: 36px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-weight: 700; }
+  div.header h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: bold; }
+  div.header div.research div.hr2, div.header div.research div.hr1 {
+    padding-top: 50px; }
+  div.header div.research div.hr1 {
+    margin-left: 22%; }
+  div.header div.research button.join-us {
+    display: inline-block;
+    margin: 50px auto;
+    margin-bottom: 75px;
+    font-size: 18px;
+    line-height: 40px;
+    background-color: #28a83d;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-size: cover;
+    background-origin: content-box;
+    background-position: center top;
+    border-radius: 10px; }
+    div.header div.research button.join-us a {
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0px 40px;
+      color: white;
+      display: block; }
+      div.header div.research button.join-us a:hover, div.header div.research button.join-us a:visited {
+        color: white; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 10:23:45 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+div.section-2 {
+  background: url("../img/section-2.jpg"); }
+  div.section-2 div.diamond {
+    margin-top: 30px;
+    text-align: center; }
+    div.section-2 div.diamond i {
+      font-size: 60px;
+      color: #5dc13c; }
+  div.section-2 h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 34px;
+    font-family: "Open Sans", sans-serif;
+    color: dimgray;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px; }
+  div.section-2 div.list-section-2 {
+    position: relative;
+    margin-top: 20px;
+    background-color: #dddddd;
+    border-radius: 9px 9px; }
+    div.section-2 div.list-section-2 span {
+      display: block;
+      width: 53px;
+      height: 53px;
+      border-radius: 220px;
+      border-style: solid;
+      border-color: #fff;
+      border-width: 3px;
+      background-color: #5dc13c;
+      text-align: center;
+      line-height: 45px;
+      font-size: 21px;
+      font-family: "Open Sans", sans-serif;
+      color: white;
+      position: absolute;
+      top: 3px;
+      left: -13px; }
+    div.section-2 div.list-section-2 p {
+      padding: 15px 0px 20px 50px;
+      font-size: 16px;
+      line-height: 24px;
+      background-color: rgba(255, 255, 255, 0);
+      font-family: "Open Sans", sans-serif;
+      color: #616161;
+      font-weight: 400; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 11:01:58 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+<div class="missing-value row">
+                    <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                        <div class="col-left">
+                            <img class="img-responsive" src="img/lakita2.jpg" alt="lakita" />
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-6">
+                        <div class="col-right">
+                            <h2> Bß║ín sß║╜ bß╗Å lß╗í ─æiß╗üu g├¼ nß║┐u kh├┤ng tham gia kh├│a hß╗ìc n├áy ? </h2>
+                            <p class="margin-top-20"> T─âng kß╗╣ n─âng trong c├┤ng viß╗çc, hß╗ìc tß║¡p </p>
+                            <p> C╞í hß╗Öi th─âng tiß║┐n v├á ph├ít triß╗ân nghß╗ü nghiß╗çp kß║┐ to├ín </p>
+                            <p> Hß╗ìc vi├¬n hiß╗âu r├╡ kß║┐ to├ín kh├┤ng chß╗ë l├á b├ío c├ío thuß║┐ m├á kß║┐ to├ín l├á ng├┤n ngß╗» cß╗ºa kinh doanh </p>
+                            <p> C├│ kß╗╣ n─âng ph├ón t├¡ch BCTC ─æß╗â so├ít x├⌐t rß╗ºi ro trong kinh doanh </p>
+                            <p> Hiß╗âu r├╡ vß╗ü 2 sß║»c thuß║┐ ch├¡nh TNDN v├á TNCN</p>
+                            <p> ─É╞░ß╗úc hß╗ù trß╗ú th╞░ß╗¥ng xuy├¬n vß╗¢i ─æß╗Öi ng┼⌐ trß╗ú giß║úng chuy├¬n nghiß╗çp </p>
+                        </div>
+                    </div>
+                </div>  
+*/
+div.missing-value {
+  /*    background-color: #efefef;*/
+  margin-top: 55px; }
+  div.missing-value h2 {
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700; }
+    @media screen and (max-width: 500px) {
+      div.missing-value h2 {
+        font-size: 22px; } }
+  div.missing-value div.col-left h2 {
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700;
+    font-size: 30px; }
+    @media screen and (max-width: 500px) {
+      div.missing-value div.col-left h2 {
+        font-size: 22px; } }
+  div.missing-value div.col-left p {
+    color: #63636a;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 21px; }
+    div.missing-value div.col-left p i {
+      color: #41A85F; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 11:19:35 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+<div class="about-teacher row">
+                    <h2 class="text-center"> Ng╞░ß╗¥i chß║»p c├ính ─æam m├¬ </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="col-left">
+                                <img class="img-responsive" src="img/thodt.png" alt="lakita" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-right">
+                                <p class="teacher-name">
+                                    Giß║úng vi├¬n: ─É├áo Thß╗ï Th╞í
+                                </p>
+                                <p class="teacher-desc">
+                                    Kß║┐ to├ín Tr╞░ß╗ƒng tß║íi c├┤ng ty 100% vß╗æn cß╗ºa Ph├íp tß║íi H├á Nß╗Öi
+                                </p>
+                                <p class="teacher-desc">
+                                     5 n─âm kinh nghiß╗çm ß╗ƒ vß╗ï tr├¡ kß║┐ to├ín tß╗òng hß╗úp ki├¬m phß╗Ñ tr├ích to├án bß╗Ö mß║úng thuß║┐
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+*/
+div.about-teacher {
+  margin-top: 55px;
+  margin-bottom: 30px; }
+  div.about-teacher h2 {
+    position: relative;
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700;
+    /*        &:after{
+                content: "";
+                position: absolute;
+                border: 2px solid #FF0000;
+                top: 136%;
+                width: 230px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+            }*/ }
+    @media screen and (max-width: 500px) {
+      div.about-teacher h2 {
+        font-size: 22px; } }
+  div.about-teacher div.row {
+    margin-top: 70px; }
+    div.about-teacher div.row div.col-left {
+      width: 70%;
+      float: right;
+      margin-right: 22px; }
+    div.about-teacher div.row div.col-md-1 {
+      width: 3.3333333%; }
+    div.about-teacher div.row div.mid div.ddoc {
+      width: 1px;
+      border: 1px solid white;
+      height: 340px; }
+    div.about-teacher div.row div.col-right {
+      padding-left: 40px;
+      margin-bottom: 40px; }
+      div.about-teacher div.row div.col-right p.teacher-name {
+        margin-top: 30px;
+        font-size: 24px;
+        line-height: 28px;
+        background-color: rgba(255, 255, 255, 0);
+        font-family: "Open Sans";
+        font-weight: 300; }
+      div.about-teacher div.row div.col-right ul li.teacher-desc {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        background-color: rgba(255, 255, 255, 0);
+        font-family: "Open Sans";
+        font-weight: 400; }
+        div.about-teacher div.row div.col-right ul li.teacher-desc span {
+          color: #FF5722;
+          margin-right: 10px; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 3:10:20 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+div.outline {
+  padding-top: 40px;
+  padding-bottom: 20px; }
+  div.outline h1 {
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media screen and (max-width: 500px) {
+      div.outline h1 {
+        font-size: 22px; } }
+  div.outline div.chapter-outline p.chapter-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1cb26d;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px 10px 20px; }
+  div.outline div.chapter-outline p.chapter-name:hover {
+    background-color: #00b300;
+}
+  div.outline div.chapter-outline p.lesson {
+    font-size: 15px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 400;
+    padding: 15px; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 3:38:04 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+ <div class="highlight">
+            <h2>
+                Kß╗╣ thuß║¡t Quyß║┐t to├ín thuß║┐
+            </h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="highlight-list">
+                        <div class="highlight-icon">
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                        </div>
+                        <p>
+                            Hß╗îC ONLINE
+                        </p>
+                        <p>
+                            Hß╗ìc trß╗▒c tuyß║┐n mß╗¢i mß║╗, th├║ vß╗ï. Kh├┤ng giß╗¢i hß║ín thiß║┐t bß╗ï mß╗ìi l├║c, mß╗ìi n╞íi. Chß╗ë cß║ºn thiß║┐t bß╗ï c├│ kß║┐t nß╗æi internet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>*/
+div.highlight {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  div.highlight h2 {
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 500px) {
+      div.highlight h2 {
+        font-size: 22px; } }
+  div.highlight div.highlight-list div.highlight-icon {
+    margin: 0px auto;
+    margin-bottom: 40px; }
+    div.highlight div.highlight-list div.highlight-icon i {
+      font-size: 35px;
+      color: #29cf89;
+      display: block;
+      text-align: center; }
+      div.highlight div.highlight-list div.highlight-icon i.fa-television:before {
+        border: 3px solid #4a4949;
+        padding: 15px;
+        border-radius: 100%; }
+      div.highlight div.highlight-list div.highlight-icon i.fa-list-ul:before {
+        border: 3px solid #4a4949;
+        padding: 15px;
+        border-radius: 100%; }
+      div.highlight div.highlight-list div.highlight-icon i.fa-users:before {
+        border: 3px solid #13F2BD;
+        padding: 15px;
+        border-radius: 100%; }
+      div.highlight div.highlight-list div.highlight-icon i.fa-area-diamond:before {
+        border: 3px solid #4a4949;
+        padding: 15px;
+        border-radius: 100%; }
+  div.highlight div.highlight-list p.highlight-name {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    font-family: "Open Sans";
+    color: #4a4949;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+  div.highlight div.highlight-list p.highlight-content {
+    text-align: center;
+    font-size: 13px;
+    line-height: 17px;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+    font-family: "Open Sans", sans-serif;
+    color: #4a4949; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 4:19:24 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+div.camNhan {
+  padding-top: 55px; }
+  div.camNhan h2 {
+    position: relative;
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700; }
+    @media screen and (max-width: 500px) {
+      div.camNhan h2 {
+        font-size: 22px; } }
+    div.camNhan h2:after {
+      content: "";
+      position: absolute;
+      border: 1px solid;
+      top: 136%;
+      width: 340px;
+      left: 0;
+      right: 0;
+      margin: auto; }
+  div.camNhan div.row {
+    margin-top: 35px; }
+    div.camNhan div.row div.col-chu {
+      padding-left: 40px;
+      margin-bottom: 40px; }
+      div.camNhan div.row div.col-chu ul {
+        width: 78%; }
+        div.camNhan div.row div.col-chu ul li.std-desc {
+          color: white;
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 18px;
+          background-color: rgba(255, 255, 255, 0);
+          font-family: "Open Sans";
+          font-weight: 400; }
+          div.camNhan div.row div.col-chu ul li.std-desc span {
+            color: #FF5722;
+            margin-right: 10px; }
+    div.camNhan div.row div.col-anh {
+      width: 15%;
+      /*            float:right;
+                  margin-right:22px;*/ }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 6:29:36 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+/*
+<div class="container-fluid padding-bottom-20 register">
+    <div class="row">
+        <h2> ─É─éNG K├¥ KH├ôA Hß╗îC NGAY ─Éß╗é NHß║¼N ╞»U ─É├âI 65% </h2>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="price-root"></p>
+                </div>
+                <div class="col-md-6">
+                    <p class="price-sale-text"></p>
+                    <p class="price-sale"></p>
+                </div>
+            </div>
+            <p class="apply"> ├üp dß╗Ñng ─æß║┐n hß║┐t 24/04/2017 . NHANH TAY L├èN </p>
+            <ul> 
+                <li> 
+                    <p> 24 </p> 
+                    <p class="time"> Ng├áy </p>
+                </li>
+                <li> 
+                    <p> 0 </p> 
+                    <p class="time"> Giß╗¥ </p>
+                </li>
+                <li> 
+                    <p> 7 </p> 
+                    <p class="time"> Ph├║t </p>
+                </li>
+                <li> 
+                    <p> 0 </p> 
+                    <p class="time"> Gi├óy </p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Hß╗ì v├á t├¬n" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="phone" class="form-control" placeholder="Sß╗æ ─æiß╗çn thoß║íi" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="─Éß╗ïa chß╗ë">
+                </div>
+                <button type="submit" class="btn btn-default">─É─âng k├¡ ngay</button>
+            </form>
+        </div>
+    </div>
+    <p> Sau khi ─æ─âng k├╜ mua kh├│a hß╗ìc, bß╗Ö phß║¡n CSKH cß╗ºa Lakita sß║╜ li├¬n hß╗ç vß╗¢i bß║ín ─æß╗â x├íc nhß║¡n th├┤ng tin 
+        v├á nh├ón vi├¬n b╞░u ─æiß╗çn sß║╜ giao kh├│a hß╗ìc tß║¡n n╞íi cho bß║ín. Bß║ín chß╗ë phß║úi trß║ú tiß╗ün khi nhß║¡n ─æ╞░ß╗úc kh├│a hß╗ìc. </p>
+    <hr>
+    <h2> MIß╗äN PH├ì GIAO H├ÇNG TO├ÇN QUß╗ÉC </h2>
+    <p> LI├èN Hß╗å:  Ph├▓ng 701 CT1 - Chung c╞░ Skylight - Ng├╡ H├▓a B├¼nh 6 - 125D Minh Khai - Q. Hai B├á Tr╞░ng - H├á Nß╗Öi </p>
+    <p> Hotline: 1900 636 195 - 04 7306 2468  </p>
+</div>*/
+div.register {
+  position: relative;
+  background-image: url("../kt110/img/fuzy.jpg"); }
+  div.register:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2; }
+  div.register div.container * {
+    position: relative;
+    z-index: 99999;
+    color: #dcdcdc; }
+  div.register div.container h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: #dcdcdc;
+    font-weight: 700;
+    margin-top: 40px; }
+  div.register div.container div.price-root {
+    padding-right: 0px; }
+    div.register div.container div.price-root p.price-root {
+      font-size: 18px;
+      height: 60px;
+      line-height: 60px;
+      font-family: "Open Sans";
+      color: #242424;
+      font-weight: 700;
+      text-decoration: line-through;
+      background-color: #dcdcdc;
+      border-radius: 330px 0px 0px 330px;
+      text-align: center; }
+  div.register div.container div.price-sale {
+    border: 1px solid #fff;
+    border-radius: 0px 330px 330px 0px;
+    height: 60px; }
+    div.register div.container div.price-sale p.price-sale-text {
+      margin-top: 7px;
+      font-size: 12px;
+      line-height: 16px;
+      background-color: rgba(255, 255, 255, 0);
+      font-family: "Open Sans";
+      color: #dcdcdc;
+      font-weight: 700; }
+    div.register div.container div.price-sale p.price-sale {
+      font-size: 24px;
+      line-height: 28px;
+      font-family: "Open Sans";
+      color: #d84315;
+      font-weight: 700; }
+  div.register div.container p.apply {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Open Sans";
+    color: #dcdcdc;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px; }
+  div.register div.container ul {
+    display: inline-block;
+    margin-top: 50px; }
+    div.register div.container ul li {
+      float: left;
+      padding: 15px 10px;
+      background-color: #f44336;
+      margin-right: 15px; }
+      div.register div.container ul li p {
+        font-size: 50px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700; }
+        div.register div.container ul li p.time {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          font-size: 13px;
+          line-height: 17px;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 400; }
+    div.register div.container ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+  div.register div.container p.note {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #dcdcdc;
+    text-align: center;
+    margin-top: 30px; }
+  div.register div.container p.contact-us, div.register div.container p.hotline {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px; }
+  div.register div.container div.form-rgt {
+    margin-top: 25px; }
+    div.register div.container div.form-rgt div.form-group input {
+      padding: 20px;
+      color: #000;
+      background-color: #fdfdfd; }
+    div.register div.container div.form-rgt button {
+      font-size: 19px;
+      line-height: 22px;
+      background-color: #136a42;
+      font-family: "Open Sans";
+      color: #dcdcdc;
+      font-weight: 700;
+      border-radius: 5px;
+      display: block;
+      margin: 0px auto;
+      padding: 15px 35px;
+      text-transform: uppercase; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 5:00:26 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  div.highlight div.highlight-list div.highlight-icon {
+    margin-top: 40px; }
+
+  div.register div.container div.price-sale p.price-sale {
+    /*                    font-size: 24px;
+                        line-height: 28px;
+                        font-family: "Open Sans";
+                        color: rgb(216, 67, 21);
+                        font-weight: 700;*/ } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 10:43:55 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  div.do-you-know div.col-left {
+    margin-left: 8.33333333%; }
+  div.do-you-know div.col-right {
+    width: 90%;
+    margin: 25px auto; }
+
+  div.missing-value div.col-right {
+    margin-left: 8.33333333%; }
+
+  div.highlight div.highlight-list div.highlight-icon {
+    margin-top: 40px; }
+
+  div.register div.container div.form-rgt {
+    margin-left: 30px;
+    width: 90%; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 9:59:37 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+@media screen and (max-width: 500px) {
+  div.flex {
+    display: block; }
+
+  div.header {
+    background: none;
+    position: relative; }
+    div.header:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url("../img/header-bg.jpg");
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      z-index: -1;
+      background-size: cover; }
+    div.header h1 {
+      font-size: 40px;
+      line-height: 50px; }
+      div.header h1.course {
+        margin-top: 60px; }
+    div.header button.join-us {
+      margin: 30px auto;
+      width: 300.75px;
+      height: 55.9896px;
+      font-size: 25px; }
+
+  div.do-you-know div.col-right {
+    width: 90%;
+    margin: 25px auto; }
+
+  div.about-teacher h2 {
+    font-size: 22px; }
+    div.about-teacher h2:after {
+      border: 1px solid #FF0000; }
+  div.about-teacher div.row div.col-left {
+    float: none;
+    margin: 0px auto; }
+  div.about-teacher div.row div.col-right p.teacher-name {
+    text-align: center; }
+  div.about-teacher div.row div.col-right p.teacher-desc {
+    line-height: 22px; }
+
+  div.outline div.chapter-outline p.chapter-name {
+    padding: 5px 10px;
+    font-size: 18px; }
+  div.outline div.chapter-outline p.lesson {
+    padding: 10px; }
+
+  div.highlight div.highlight-list div.highlight-icon {
+    margin-top: 40px; }
+
+  div.register div.container ul li {
+    margin-right: 12px; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 10:31:31 AM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.bg-gray {
+  background-color: #efefef; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2017, 2:51:35 PM
+    Author     : Phß║ím Ngß╗ìc Chuyß╗ân <chuyenpn at lakita.vn>
+*/
+h2.missing-value {
+  font-size: 32px;
+  line-height: 34px;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Open Sans";
+  color: #27bc72;
+  font-weight: 700;
+  margin-left: 6%; }
+  @media screen and (max-width: 500px) {
+    h2.missing-value {
+      font-size: 22px; } }
+
+body {
+  font-family: roboto, "Open Sans", sans-serif !important;
+  overflow-x: hidden; }
+
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* for vertical scrollbars */
+  height: 12px;
+  /* for horizontal scrollbars */ }
+
+::-webkit-scrollbar-track {
+  background: #ecf8ef;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: #31B051;
+  border-radius: 10px; }
+
+.videocamnhan {
+    margin-bottom: 20px;
+}
+/*# sourceMappingURL=main.css.map */

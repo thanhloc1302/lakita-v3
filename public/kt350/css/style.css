@@ -1,0 +1,849 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: UTM;
+    src: url('../fonts/UTM-Ambrose.ttf');
+}
+
+@font-face {
+    font-family: UTMAvo;
+    src: url('../fonts/UTM-Avo.ttf');
+}
+
+@font-face {
+    font-family: SFDisplay;
+    src: url('../fonts/SF-UI-Display-Medium.otf');
+}
+
+@font-face {
+    font-family: SFText;
+    src: url('../fonts/SanFranciscoText-Regular.otf');
+}
+
+@font-face {
+    font-family: SFText;
+    src: url('../fonts/UTM-Helve.ttf');
+}
+
+@font-face {
+    font-family: SFTextG2;
+    src: url('../fonts/SanFranciscoText-RegularG2.otf');
+}
+
+.fontSFTG2 {
+    font-family: SFTextG2;
+}
+
+.fontUTMHelve {
+    font-family: SFText;
+}
+
+.fontSFt {
+    font-family: SFText;
+}
+
+.fontSF {
+    font-family: SFDisplay;
+}
+
+.fontUTM {
+    font-family: UTM;
+}
+
+.fontUTMAvo {
+    font-family: UTMAvo;
+}
+
+.header {
+	background-image: url('../img/top-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 2%;
+}
+
+.do-you-know {
+	width: 100%;
+	padding: 7px 0;
+	background: rgba(255, 255, 255, 0.3);
+	margin-bottom: 15px;
+}
+
+.do-you-know p span {
+	color: #ff0000;
+}
+
+#bs-example-navbar-collapse-1 {
+	padding: 10px 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #41a85f;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #41a85f;
+}
+
+.navbar-brand {
+	padding: 10px;
+}
+
+.navbar-nav li {
+	list-style-type: none;
+	text-align: right;
+    padding: 10px 15px;
+}
+
+.navbar-nav li a:hover {
+	background: none;
+}
+
+.navbar-nav li:nth-child(1) {
+	margin-left: 0;
+}
+
+.navbar-nav li a {
+	color: #188738 !important;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0;
+}
+
+.invest, .rgtn {
+	padding-right: 0;
+}
+
+.price, .saleoff {
+	padding-left: 0;
+	text-align: right;
+}
+
+.invest p {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #188738;
+}
+
+.rgtn p {
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 16%;
+}
+
+.price p {
+	color: #ea0000;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	stroke-color: white;
+	-webkit-text-stroke-color: white;
+	margin-bottom: 0;
+	-webkit-text-stroke-width: 1px;
+	stroke-width: 1px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    text-shadow: 1px 4px 1px rgba(0,0,0,0.4);
+}
+
+.price p::before {
+	content: "895.000";
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 22px;
+	color: #ba0303;
+	-webkit-text-stroke-width: 1px;
+	stroke-width: 1px;
+	text-decoration: line-through;
+	text-decoration-color: #a1a1a1;
+	position: absolute;
+	top: -20px;
+	right: 55px;
+}
+
+.saleoff p {
+	font-size: 11px;
+	color: #ea0000;
+	font-weight: bold;
+	margin-bottom: 0;
+	text-shadow: 0.1px 2.1px 1px rgba(0,0,0,0.4);
+	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color: white;
+	stroke-color: white;
+}
+
+#name, #email, #phone, #dia_chi, #tinh, #quan {
+    padding: 19px 3px 18px 45px;
+    box-shadow: 0px 3px 1px 0px #d9d9d9 inset;
+    border: 1px solid #cccccc;
+    height: 50px;
+}
+
+.span6{
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+}
+.span6-new{
+	width: 49%;
+	float: left;
+}
+
+.form-bg input{
+	height: 52px;
+}
+
+.reg_bt{
+	width: 100% !important;
+	height: 50px;
+	box-shadow: 0px 3px 1px 0px #328e4d inset !important;
+	border: 1px solid #cccccc;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14pt !important;
+}
+
+.btn-primary {
+    background: #3dab5e !important;
+}
+
+#name{
+  background: #fff url("../img/user_ico.png") no-repeat 15px center;
+}
+#email{
+  background: #fff url("../img/email_ico.png") no-repeat 15px center;
+ 
+}
+#phone{
+  background: #fff url("../img/phone_ico.png") no-repeat 15px center;
+ 
+}
+#dia_chi{
+  background: #fff url("../img/dia_chi_ico.png") no-repeat 15px center;
+ 
+}
+#tinh{
+  background: #fff url("../img/dia_chi_ico.png") no-repeat 15px center;
+ 
+}
+#quan{
+  background: #fff url("../img/dia_chi_ico.png") no-repeat 15px center;
+ 
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+    padding: 19px 3px 18px 45px;
+    background-color: #fff;
+    font-family: inherit;
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    color: #262626;
+    display: block;
+    font-size: 1em;
+    margin: 0 0 13px 0;
+    padding: 0.75em;
+    height: 34px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear border-radius: 6px;
+    border: 1px solid #8095a8;
+    border-radius: 5px;
+}
+
+.img-hide {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	display: none;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.do-you-know p {
+    color: #076624;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.do-you-know h3 {
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ff0000;
+}
+
+.price p span {
+		font-size: 21px;
+	}
+
+.welcome {
+	font-size: 25px;
+	padding: 2% 15px;
+}
+
+.wellcome-text {
+	color: #ff0000;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+p#title-c {
+	color: #333333;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+p#content-c {
+	color: #888888;
+	font-style: italic;
+	margin-bottom: 0;
+	line-height: 30px;	
+}
+
+p#price-c {
+	color: #333333;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 10px 0 rgba(0, 0, 0,0.58);
+    -webkit-box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.58);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .58);
+}
+
+.support {
+	background-image: url('../img/bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #eaf4f0;
+	padding: 20px 0;
+}
+
+.line-white {
+	border-top: 2px solid #eaf4f0;
+	width: 100%;
+	display: none;
+}
+
+.text-support {
+	width: 90%;
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+	font-size: 26.77px;
+	background-image: url('../img/bg.png');
+}
+
+.support-tit {
+	margin-top: 2%;
+}
+
+.feature {
+	color: #ffffff;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	
+}
+
+.feature img {
+	margin: 20px 0;
+}
+
+.feature p:nth-child(2) {
+	font-size: 16.7px;
+}
+
+.feature p:nth-child(3) {
+	font-size: 14.2px;
+}
+
+.target {
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.56);
+	padding: 30px;
+	width: 96% !important;
+	margin: 30px auto;
+}
+
+.tit-t {
+	font-size: 19px;
+	color: #7d97ad;
+	margin-bottom: 20px;
+}
+
+.con-t {
+	font-size: 16.5px;
+	color: #525c65;
+	text-indent: 40px;
+}
+
+.quote {
+	background-image: url('../img/rgtnow-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	padding: 2% 0;
+}
+
+.quote-area {
+	position: relative;
+}
+
+.quote span {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 112.5px;
+	position: absolute;
+}
+
+.quote span:nth-child(1) {
+	top: -45px;
+	left: -50px;
+}
+
+.quote span:nth-last-child(1) {
+	bottom: -80px;
+	right: -40px;
+}
+
+
+.quote-area p {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.rgt-now {
+    background: #02b3e4 none repeat scroll 0 0;
+    border-color: #02b3e4;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: color 0.2s linear 0s, background 0.2s linear 0s, border-color 0.2s linear 0s, text-shadow 0.2s linear 0s;
+    margin-top: 25px;
+}
+
+.lecture {
+	background-color: #1c1f25;
+	border-top: 3px solid white;
+	padding-bottom: 2%;
+}
+
+.course-gui {
+	background-color: white;
+}
+
+.vnexpress {
+	background-image: url('../img/vnexpress-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 2% 0;
+}
+
+.register-area {
+	background-image: url('../img/rgt-cover.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2% 0;
+}
+
+.form-rgt {
+	background: rgba(255,255,255,0.32);
+	padding: 5px 0;
+	height: 100%;
+}
+
+.form-rgt div {
+	width: 40%;
+	margin: auto;
+}
+
+.form-rgt p {
+	font-size: 16.83px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: white;
+}
+
+.form-rgt input {
+	height: 40px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 16.87px;
+	margin-top: 5px;
+    width: 100%;
+}
+
+.form-rgt input[type="text"], .form-rgt input[type="email"], .form-rgt input[type="tel"] {
+    padding: 19px 3px 18px 45px;
+    background-color: #fff;
+    border: none;
+    color: #787878;
+    display: block;
+    margin: 0 0 13px 0;
+    padding: 0.75em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear border-radius: 6px;
+}
+
+.form-rgt input[type="submit"] {
+	background-color: #006633;
+	color: white;
+	border: none;
+}
+
+.sale-area {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.time-remain {
+	border: 2px solid #787878;
+	height: 20px;
+	border-bottom: none;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.time-remain div {
+	font-size: 12.25px;
+	background: none;
+	color: white;
+	text-align: center;
+	margin-top: -8px;
+}
+
+.time-countdown {
+	width: 100%;
+}
+
+.time-num {
+	color: white;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 11.13px;
+	margin-top: 12px;
+}
+
+.price-sale {
+	border: 2px solid #787878;
+	background: #151616;
+	width: 100%;
+}
+
+.price-sale p {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 14.7px;
+	color: white;
+	margin: 0;
+}
+
+.price-sale p span:nth-child(1) {
+	text-decoration: line-through;
+	color: #a9a9a9;
+	font-size: 19.6px;
+}
+
+.price-sale p span:nth-last-child(1) {
+	color: #ffb61a;
+	font-size: 24.5px;
+}
+
+
+.info-sale {
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 10.61px;
+}
+
+.content-course {
+	border-left: 1px solid black;
+}
+
+.part {
+	margin: 20px 0;
+}
+
+.name {
+	color: #159f71;
+	font-weight: bold;
+	font-size: 16.45px;
+	margin-left: -11.5%;
+}
+
+.name span {
+	margin-left: 9%;
+}
+
+.title-part {
+	font-size: 32px;
+	color: #525c65;
+}
+
+.pre-content {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #525c65;
+	font-size: 16.45px;
+}
+
+.click-show {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 16.45px;
+	color: #02b3e4;
+}
+
+.click-show:hover {
+	cursor: pointer;
+}
+
+.list-lesson {
+	border: 1px solid #525c65;
+	border-radius: 20px;
+	background: #fdfcff;
+	padding-left: 15px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #525C65;
+	padding-top: 15px;
+	display: none;
+}
+
+.hid, .hid-add {
+	display: none;
+}
+
+.dark {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.dark img {
+	margin: auto;
+}
+
+.area {
+	width: 100%;
+	border-top: 3px solid #44b28d;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.56);
+}
+
+.area img {
+	margin-top: -20px;
+}
+
+.lineout {
+	padding-top: 2%;
+}
+
+footer {
+	background-image: url('../img/rgtnow-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1% 0;
+}
+
+footer p {
+	font-size: 13.07px;
+	color: #ffffff;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+@media (min-width: 500px) {
+	.invest p {
+		font-size: 28px;
+	}
+
+	.rgtn p {
+		font-size: 19.81px;
+		margin-top: -3%;
+	}
+
+	.price p {
+		font-size: 40px;
+	}
+
+	.price p::before {
+		font-size: 30px;
+		top: -25px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse div {
+		width: 50%;
+	}
+
+	.navbar-nav li {
+		text-align: left;
+		padding: 0px;
+	}
+
+	.navbar-nav li a {
+		font-size: 13.41px;
+	}
+
+	.img-hide {
+		display: block;
+	}
+
+	.do-you-know h3 {
+	    font-size: 43px;
+	}
+
+	.invest p {
+		font-size: 22px;
+	}
+
+	.rgtn p {
+		font-size: 16px;
+		margin-top: 9%;
+	}
+
+	.price p {
+		font-size: 37px;
+	}
+
+	.shadow {
+		float: right;
+	}
+
+	.line-white {
+		display: block;
+	}
+
+	.text-support {
+		width: 80%;
+	}
+
+	.vnexpress-logo {
+		margin-top: 20%;
+	}
+
+	.list-lesson {
+		padding-left: 40px;
+	}
+
+	.area {
+		height: 285px;
+	}
+
+	.title-part {
+		font-size: 47px;
+	}
+}
+
+@media (max-width: 768px) {
+	img {
+		margin: auto;
+	}
+
+	p#title-c {
+		margin-top: 15px;
+	}
+
+	.area {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-collapse div {
+		width: 41.66666%;
+	}
+
+	.navbar-nav li {
+	    margin-left: 3%;
+	}
+
+	.do-you-know {
+		width: 115%;
+	}
+
+	.do-you-know h3 {
+	    font-size: 54.4px;
+	}
+
+	.do-you-know p {
+	    font-size: 24.45px;
+    	line-height: 25px;
+	}
+
+	.text-support {
+		width: 65%;
+	}
+
+	.area {
+		height: 370px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.navbar-nav li {
+	    margin-left: 8%;
+	}
+
+	.invest p {
+		font-size: 29.81px;
+	}
+
+	.rgtn p {
+		font-size: 19.42px;
+		margin-top: -6px;
+	}
+
+	.price p {
+		font-size: 50px;
+	}
+
+	.price p::before {
+		font-size: 35.43px;
+		top: -33px;
+	}
+
+	.text-support {
+		width: 63%;
+	}
+}

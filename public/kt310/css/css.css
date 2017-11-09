@@ -1,0 +1,437 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: SFDisplay;
+}
+@font-face {
+    font-family: UTM;
+    src: url('../fonts/UTM-Ambrose.ttf');
+}
+
+@font-face {
+    font-family: UTMAvo;
+    src: url('../fonts/UTM-Avo.ttf');
+}
+
+@font-face {
+    font-family: SFDisplay;
+    src: url('../fonts/SF-UI-Display-Medium.otf');
+}
+
+@font-face {
+    font-family: SFText;
+    src: url('../fonts/SanFranciscoText-Regular.otf');
+}
+
+@font-face {
+    font-family: SFText;
+    src: url('../fonts/UTM-Helve.ttf');
+}
+
+@font-face {
+    font-family: SFTextG2;
+    src: url('../fonts/SanFranciscoText-RegularG2.otf');
+}
+.top{
+	background: url(../img/khungtop.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2% 0;
+	height: 100%;
+	font-size: 12px;
+	font-family: SFDisplay;
+	
+}
+.top2{
+	background-image: url('../img/845.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5% 0 5% 0px;
+	height: 100%;
+	font-family: SFDisplay;
+}
+.top3{
+	font-family: SFDisplay;
+}
+.a{
+	color: white;
+	font-size: 25px;
+	
+}
+.b{
+	color: white;
+	font-size: 25px;
+	margin: 2%;
+	background: url(../img/khungvang.png);
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c{
+	font-size: 40px;
+	border-bottom: solid 3px #FFFFFF;
+	border-top: solid 3px #FFFFFF;
+	color: white;
+	margin: 2%;
+}
+.d{
+	color: white;
+	font-size: 25px;
+	border: solid 1px white;
+	width: 300px;
+	height: 50px;
+	margin: 5%;
+	line-height: 45px;
+}
+.d a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	
+}
+.ab{
+	background: rgba(0,0,0,0.5);
+}
+.e{
+	font-size: 20px;
+	line-height: 50px;
+}
+.e2{
+	text-align: center;
+	padding: 2%;
+	font-size: 20px;
+}
+.e1{
+	margin: 2% auto 2% auto;
+}
+.aa li{
+	padding: 0.5%;
+}
+.f2 a{
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+.f2{
+	font-size: 14px;
+	border: solid 1px #000000;
+	width: 200px;
+	height: 45px;
+	line-height: 40px;
+	margin: 5% auto 5% auto;
+}
+.f{
+	background: rgba(230,230,230,230);
+	font-family: SFDisplay;
+}
+.top4{
+	margin: 5% auto 5% auto;
+	font-size: 18px;
+	font-family: SFDisplay;
+}
+.g2 a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	
+	
+}
+.g2{
+	font-size: 14px;
+	line-height: 40px;
+	background: url(../img/btndangky.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 5% auto 2% auto;
+	border-radius: 8px;
+	width: 200px;
+	height: 40px;
+}
+.nd{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	margin: 2% auto auto auto;
+}
+.area{
+	margin-top: 5%;
+}
+.top5{
+	background: url(../img/nen.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+}
+.img-responsive{
+	margin: 5% auto auto auto;
+	text-align: center;
+}
+.test{
+	background: #0D5645;
+}
+.q1q{
+	background-color: #474141;
+	font-family: SFDisplay;
+	color: white;
+	margin: -7% auto auto auto;
+}
+.sp{
+	color: white;
+	font-family: SFDisplay;
+	margin: auto;
+	line-height: 12%;
+	padding: 2%;
+	text-align: center;
+}
+.rgtn p {
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 16%;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"] {
+    padding: 19px 3px 18px 45px;
+    background-color: #fff;
+    font-family: inherit;
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 0 rgba(0,0,0,0.1);
+    color: #262626;
+    display: block;
+    font-size: 1em;
+    margin: 0 0 13px 0;
+    padding: 0.75em;
+    height: 34px;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear ;
+    border-radius: 6px;
+    border: 1px solid #8095a8;
+    border-radius: 5px;
+}
+.register-area {
+	background-image: url('../img/vv.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2% 0;
+}
+
+.form-rgt {
+	background: rgba(255,255,255,0.32);
+	padding: 5px 0;
+	height: 100%;
+}
+
+.form-rgt div {
+	width: 40%;
+	margin: auto;
+}
+
+.form-rgt p {
+	font-size: 16.83px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: white;
+}
+
+.form-rgt input {
+	height: 40px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 16.87px;
+	margin-top: 5px;
+    width: 100%;
+}
+
+.form-rgt input[type="text"], .form-rgt input[type="email"], .form-rgt input[type="tel"] {
+    padding: 19px 3px 18px 45px;
+    background-color: #fff;
+    border: none;
+    color: #787878;
+    display: block;
+    margin: 0 0 13px 0;
+    padding: 0.75em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear ;
+    border-radius: 6px;
+}
+
+.form-rgt input[type="submit"] {
+	background-color: #006633;
+	color: white;
+	border: none;
+}
+
+.sale-area {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.time-remain {
+	border: 2px solid #787878;
+	height: 20px;
+	border-bottom: none;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.time-remain div {
+	font-size: 12.25px;
+	background: none;
+	color: white;
+	text-align: center;
+	margin-top: -8px;
+}
+
+.time-countdown {
+	width: 100%;
+}
+
+.time-num {
+	color: white;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 11.13px;
+	margin-top: 12px;
+}
+
+.price-sale {
+	border: 2px solid #787878;
+	background: #151616;
+	width: 100%;
+}
+
+.price-sale p {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 14.7px;
+	color: white;
+	margin: 0;
+}
+
+.price-sale p span:nth-child(1) {
+	text-decoration: line-through;
+	color: #a9a9a9;
+	font-size: 19.6px;
+}
+
+.price-sale p span:nth-last-child(1) {
+	color: #ffb61a;
+	font-size: 24.5px;
+}
+
+
+.info-sale {
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 10.61px;
+}
+
+.content-course {
+	border-left: 1px solid black;
+}
+
+.part {
+	margin: 20px 0;
+}
+
+.name {
+	color: #159f71;
+	font-weight: bold;
+	font-size: 16.45px;
+	margin-left: -11.5%;
+}
+
+.name span {
+	margin-left: 9%;
+}
+
+.title-part {
+	font-size: 32px;
+	color: #525c65;
+}
+
+.pre-content {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #525c65;
+	font-size: 16.45px;
+}
+
+.click-show {
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 16.45px;
+	color: #02b3e4;
+}
+
+.click-show:hover {
+	cursor: pointer;
+}
+
+.list-lesson {
+	border: 1px solid #525c65;
+	border-radius: 20px;
+	background: #fdfcff;
+	padding-left: 15px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	color: #525C65;
+	padding-top: 15px;
+	display: none;
+}
+
+.hid, .hid-add {
+	display: none;
+}
+
+.dark {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.dark img {
+	margin: auto;
+}
+
+.area {
+	width: 100%;
+	border-top: 3px solid #44b28d;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.56);
+}
+
+.area img {
+	margin-top: -20px;
+}
+
+.lineout {
+	padding-top: 2%;
+}
+
+footer {
+	background-image: url('../img/rgtnow-cover.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1% 0;
+}
+
+footer p {
+	font-size: 13.07px;
+	color: #ffffff;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}

@@ -1,0 +1,12 @@
+[03-Dec-2014 12:01:22 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/BasicsTest.php on line 31
+[03-Dec-2014 12:01:22 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/VendorsTest.php on line 31
+[03-Dec-2014 12:01:22 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/UserAgentTest.php on line 31
+[03-Dec-2014 12:02:40 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/BasicsTest.php on line 31
+[03-Dec-2014 12:02:40 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/BasicsTest.php on line 31
+[03-Dec-2014 12:02:40 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/BasicsTest.php on line 31
+[03-Dec-2014 12:02:41 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/VendorsTest.php on line 31
+[03-Dec-2014 12:02:41 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/VendorsTest.php on line 31
+[03-Dec-2014 12:02:41 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/VendorsTest.php on line 31
+[03-Dec-2014 12:02:42 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/UserAgentTest.php on line 31
+[03-Dec-2014 12:02:42 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/UserAgentTest.php on line 31
+[03-Dec-2014 12:02:42 UTC] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/locmx/public_html/tienganhtructuyen.topmito.edu.vn/mol_topmito/Mobile_Detect/tests/UserAgentTest.php on line 31

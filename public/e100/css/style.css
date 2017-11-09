@@ -1,0 +1,1166 @@
+@charset "utf-8";
+
+/* ============================== */
+/*
+ - Title: Landing Page - Boostrap HTML - Blue
+ - Autor: Coralix Themes
+*/
+/* ============================== */
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+ /* ---------------------------------------------------------------------- */
+@import url("bootstrap/bootstrap.css");
+@import url("bootstrap/bootstrap-responsive.css");
+/*Helpers*/
+@import url("helpers.css");
+
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300");
+
+/*Animations*/
+@import url("animations/animate.css");
+
+/* ---------------------------------------------------------------------- */
+/*	General Style
+ /* ---------------------------------------------------------------------- */
+
+@font-face {
+    font-family:FontAwesome;
+    src:url('https://lakita.vn/public/e100/css/FontAwesome.otf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    background: url(https://lakita.vn/public/e100/img/background/00.png) 0 0 repeat;
+    font-family: 'Open Sans', sans-serif;
+    color: #383e44;
+    font-weight: 400;
+    /* 1em = 10px | 1.2em = 12px | 2em = 20px | etc. */
+    font-size: 62.5%;
+    padding: 0;
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #383e44;
+    font-weight: 300;
+}
+h1 {
+    font-size: 4.1em;
+    line-height: 39px;
+}
+ul li {
+    font-size: 1.3em;
+}
+ul li b {
+    line-height: 33px!important;
+}
+ul li ul li {
+    font-size: 1em !important;
+}
+h2 {
+    font-size: 3.2em;
+    margin: 0 0 1em;
+    background: url(https://lakita.vn/public/e100/img/bg-title.png) repeat-x 50% 50%;
+}
+h2 em {
+    color: #338E4E;
+    font-style: normal;
+    font-weight: 600;
+}
+h2 span {
+    background: none repeat scroll 0 0 white;
+    display: inline-block;
+    padding: 0 3%;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 26px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+p {
+    line-height: 21px;
+}
+
+a, a:hover, a:active, a:focus {
+    outline: 0!important;
+    border: 0; 
+}
+iframe {
+    border: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+section.pricing, section.global-oportunities, section.learn, section.video, section.steps {
+    padding:20px 0;
+}
+
+/*  Transitional elements
+================================================== */
+
+ul.btns-top li a, #curse-form input.btn-large {
+    -webkit-transition: 0.4s all ease;
+    -moz-transition: 0.4s all ease;
+    -o-transition: 0.4s all ease;
+    -ms-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Header
+ /* ---------------------------------------------------------------------- */
+
+/* Top Bar ----------------------------*/
+.top {
+    background-color: #eeeeee;
+    color: #fff;
+}
+
+.top .container .logo {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+.top .container .btns-top {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: inline-block;
+}
+.top .container .btns-top li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.top .container .btns-top li a {
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.btn.btn-large {
+    font-size: 14px;
+}
+.btn-inverse {
+    background: #23272A!important;	
+}
+
+.btn-primary {
+    background: #338E4E!important;	
+}
+.btn-primary:hover, .btn-inverse:hover  {
+    background: #23272A!important;	
+}
+
+/* Slider ----------------------------*/
+
+header {
+    background: #0577D3;
+    border-bottom: 1px solid #D2D3D5;
+    height: 62px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-up {
+    top: -62px;
+}
+
+.form-curse {
+    opacity: 1;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1600px;
+}
+.form-curse img:hover{ transform: scale(1); }
+.bg-map {
+    position: absolute;
+    width: 100%;
+    height: 100%;	
+    background: url("https://lakita.vn/public/e100/img/slider-map.png") no-repeat 0 0 #348F4E;
+}
+.map-point {
+    position: absolute;
+}
+.map-point.first {
+    left: 177px;
+    top: 114px;
+}
+.map-point.second {
+    left: 310px;
+    top: 340px;
+}
+.map-point.third {
+    left: 1218px;
+    top: 432px;
+}
+.map-point.last {
+    left: 1075px;
+    top: 98px;
+}
+
+.curse-form-box {
+    color: white;
+    margin: 7% auto !important;
+    float: none !important;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 740px;
+
+}
+.curse-form-box h3 {
+
+}
+.curse-form-box .cont {
+    background: rgb(55,61,67);
+    background: rgba(55,61,67,0.80);
+    padding: 3% 5%;
+}
+.curse-form-box .cont p {
+    font-size: 13pt;
+    padding: 0 0 2%;
+}
+.curse-form-box textarea.input-large {
+    height: 8em;
+    resize: none;
+}
+.curse-form-box .input-large {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 45px;
+    margin: 0 0 20px;
+    padding: 4px 5px;
+    width: 100%;
+    border:0;
+}
+.curse-form-box select.input-large {
+    padding: 11px 3px;
+}
+.curse-form-box select.input-large option:first-child {
+    display: none;
+}
+#curse-form .btn.btn-large {
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    font-family: arial;
+}
+
+
+/* Intro ----------------------------*/
+.intro {
+    background: #f6f6f6;
+    text-align: center;
+    padding: 5% 0;
+}
+.intro h1 {
+    font-size:32px;
+    font-weight:300;
+    text-transform:uppercase;
+    color:#383e44;
+}
+.intro h4 {
+    font-size:16px;
+    font-weight: normal;
+    color:#383e44;
+}
+
+/* Steps ----------------------------*/
+.steps {
+    text-align: center;
+}
+.steps .item h4 {
+    color: #338E4E;
+    font-size: 14pt;
+    margin: 0;
+    font-weight: 600;
+}
+.steps .item p {
+    font-size: 19px;
+    margin-top: 10px;
+    color: #3D3D3D
+}
+.steps .item span.ico {
+    display: block;
+    height: 138px;
+    margin: 0 auto 16px;
+    width: 138px;
+}
+.steps .item:hover span.ico {
+    background-position: 0 0 !important;
+}
+.steps .item.first span.ico {
+    background: url(https://lakita.vn/public/e100/img/ico-step-1.png) 0 100%;
+}
+.steps .item.second span.ico {
+    background: url(https://lakita.vn/public/e100/img/ico-step-2.png) 0 100%;
+}
+.steps .item.third span.ico {
+    background: url(https://lakita.vn/public/e100/img/ico-step-3.png) 0 100%;
+}
+
+/* Video ----------------------------*/
+.generic-section {
+    padding: 3% 0;
+}
+.video {
+
+}
+.video iframe {
+    height: 88%!important;
+    width: 100%!important;
+}
+
+.list-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-features li {
+    background: url("https://lakita.vn/public/e100/img/bul-list.png") no-repeat scroll 0px 5px transparent;
+    display: block;
+    font-size: 14px;
+    line-height: 29px;
+    padding-left: 30px;
+    font-weight: 400!important;
+}
+
+
+/* Testimonials ----------------------------*/
+.testimonials {
+    background: url("https://lakita.vn/public/e100/img/testimonials-bg.jpg") no-repeat center center #0577D3;
+    background-size: cover;
+    padding: 6% 0;
+}
+.list-testimonials, .list-testimonials li {
+    color: white;
+    list-style: none outside none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.list-testimonials li img {
+    display: block;
+    float: none;
+    height: auto !important;
+    margin: 0 auto 3%;
+    width: auto !important;
+}
+.list-testimonials li p.comment {
+    font-size: 12pt;
+    line-height: 21pt;
+    padding: 0 40px;
+    font-family: tahoma;
+    text-align: justify;
+}
+.list-testimonials li p.date {
+    font-size: 11pt;
+    margin-top: 2.5%;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0px 25px 0;
+}
+.list-testimonials li p.date span {
+    color: #45F88F;
+    text-transform: none;
+}
+.row-fluid {
+    position: relative;
+}
+.rslides_nav {
+    background: url("https://lakita.vn/public/e100/img/arrows.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 40px;
+    margin-top: 17%;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 22px;
+    z-index: 99;
+}
+.rslides_nav.prev {
+    left: 0;
+}
+.rslides_nav.next {
+    right: 0;
+    background-position: 100% 0;
+}
+
+.generic-section p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Learn ----------------------------*/
+.learn.generic-section {
+    background: url("https://lakita.vn/public/e100/img/bg-icons.png") no-repeat scroll 100% 100% transparent;
+}
+
+/* Global oprtunities ----------------------------*/
+.global-oportunities .item {
+    margin-bottom: 2.5%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.global-oportunities .item img.avatar {
+    width: 100%;
+    height: auto;
+}
+.global-oportunities .item .cont {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    background: #177FD2;
+    color: white;
+    opacity:0.8;
+    margin-top: -68px;
+}
+.global-oportunities .item .cont p {
+    margin: 0 20px 1em;;
+}
+.global-oportunities .item:hover .cont {
+    top: 0 !important;
+    opacity:0.9;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    margin-top: 0px; 
+}
+
+.global-oportunities .row-fluid .item.nth1 .cont {
+    background: #338E4E;
+}
+.global-oportunities .row-fluid .item.nth2 .cont {
+    background: #3E9C59;
+}
+.global-oportunities .row-fluid .item.nth3 .cont {
+    background: #338E4E;
+}
+.global-oportunities .row-fluid .item.nth4 .cont {
+    background: #3E9C59;
+}
+.global-oportunities .item .cont h3 {
+    color: white;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.global-oportunities .item .cont h3 span {
+    margin: 20px 0;
+    display: block;
+    line-height: 32px;
+    float: left;
+}
+.icon-new {
+    float: left;
+    background: url("https://lakita.vn/public/e100/img/ico-new.png") repeat scroll 0 0 transparent;
+    height: 32px;
+    margin: 20px 10px 20px 0;
+    vertical-align: inherit;
+    width: 32px;
+}
+
+/* Brands ----------------------------*/
+.brands {
+    background: url("https://lakita.vn/public/e100/img/bg-brands.jpg") no-repeat 0 0 #0577D3;
+    background-size: cover;
+    padding: 16% 0;
+}
+.list-brands {
+    background: url("https://lakita.vn/public/e100/img/bg-brands.jpg") no-repeat 0 0 #0577D3;
+    background-size: cover;
+    padding: 16% 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.list-brands li {
+    display: inline-block;
+    margin: 0 2%;
+}
+/*.list-brands li:first-child {
+        margin-left: 0;
+}
+.list-brands li:last-child {
+        margin-right: 0;
+}*/
+.list-brands li a {
+}
+.list-brands li a img {
+    display: block;
+}
+ul.list-brands .tooltip  {
+    background: none;
+
+}
+.tooltip.top { 
+    top: -50px!important
+}
+ul.list-brands .tooltip .tooltip-inner {
+    background: #fff;
+    color: #2e62a5;
+    font-size:14px;
+    text-transform:uppercase;
+    opacity:1;
+    border-radius: 0;
+}
+ul.list-brands .tooltip.top .tooltip-arrow {
+    border-top-color: #fff;
+}
+
+
+/* Pricing tables ----------------------------*/
+.pricing {
+    position: relative;
+}
+.pricing .item {
+    background: #E9EBED;	
+}
+.pricing .item h3 {
+    color: #3B75BF;
+    font-size: 2.5em;
+}
+.pricing .item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .item ul li {
+    border-bottom: 1px solid #E2E2E2;
+    display: block;
+    line-height: 3em;
+    color: #848484;
+    font-size: 1.4em;
+}
+.pricing .item .btn {
+    margin: 5%;
+}
+.btn {
+    background: #999999;
+    border: 0 none;
+    color: white;
+    text-shadow: none;
+}
+.pricing .btn-large {
+    border-radius: 3px;
+    font-size: 1.8em;
+    font-weight: 300;
+    padding: 15px 40px;
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.pricing .item:hover {
+    background: #3B75BE;	
+}
+.pricing .item:hover h3 {
+    color: #fff;
+}
+.pricing .item:hover ul li {
+    border-color:#477DC1;
+    color: #fff;
+}
+.pricing .item:hover .btn {
+    background: #2D62A4;
+}
+
+/* Newssletter ----------------------------*/
+
+.newsletter {
+    background: #3B75BF;
+    padding: 3% 0;
+}
+.newsletter .fields {
+    text-align: center;
+}
+.newsletter .fields label {
+    color: white;
+    display: inline-block;
+    font-size: 2.4em;
+    font-weight:300;
+    margin: 0 5px;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    white-space: nowrap;
+    padding: 10px 10px;
+}
+.newsletter .fields input {
+    display: inline-block;
+    border-radius:2px;
+}
+.newsletter .fields input.btn {
+    background: none repeat scroll 0 0 #2D61A5;
+    margin: 0 5px 10px;
+    font-size: 1.8em;
+    font-weight: 300!important;
+}
+.btn {
+    box-shadow: none!important;
+}
+.newsletter .fields input.large {
+    margin: 0 5px 10px;
+    padding: 10px 10px;
+    color: #999999;
+    font-size: 1.3em;
+    font-weight:400;
+}
+.newsletter .fields div {
+    display: inline-block;
+}
+
+/* Footer ----------------------------*/
+.footer {
+    background: url(https://lakita.vn/public/e100/img/bg-footer.jpg) #373D43;
+    color: #fff;
+}
+.footer .item {
+
+}
+.footer .item h3 {
+    color: #fff;
+    font-size: 3em;
+    color: #CBCBCB;	
+}
+.footer .item p {
+    line-height: 2em;
+    font-size: 1.2em;
+    color: #CBCBCB;
+}
+ul.social {
+    margin: 0;
+    padding: 0;
+}
+ul.social li {
+    display: inline-block;
+    padding: 0 1%;
+}
+ul.social li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+}
+
+ul.social li a:hover {
+    background-position: 0 100%!important; 
+}
+
+ul.social li a.in {
+    background: url(https://lakita.vn/public/e100/img/ico-social-in.png);
+}
+ul.social li a.youtube {
+    background: url(https://lakita.vn/public/e100/img/ico-social-youtube.png);
+}
+ul.social li a.facebook {
+    background: url(https://lakita.vn/public/e100/img/ico-social-facebook.png);
+}
+ul.social li a.twitter {
+    background: url(https://lakita.vn/public/e100/img/ico-social-twitter.png);
+}
+ul.social .tooltip .tooltip-inner {
+    background: white;
+    color: black;
+}
+ul.social .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #fff;
+}
+
+/* Copy ----------------------------*/
+.copy {
+    background: #272C30;
+    padding: 1.2% 0;
+    padding-bottom: 45px;
+}
+.copy p {
+    color: #cccccc;
+    font-size: 10pt;
+    margin: 0;
+}
+.copy a {
+    color: #32D663;
+}
+
+/* Lightbox ----------------------------*/
+.modal#modal-register {
+    margin: 0 auto;
+    width: 314px;
+}
+
+#goTop {
+    background: none repeat scroll 0 0 white;
+    border-radius: 5px 5px 0 0;
+    bottom: -100em;
+    color: #666666;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 9px 18px;
+    position: fixed;
+    right: 55px;
+    text-decoration: none;
+    z-index: 9999;
+    text-shadow: 1px 1px 1px white;
+    background: rgb(239,239,239);
+    background: -moz-linear-gradient(top, rgba(239,239,239,1) 0%, rgba(224,224,224,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(239,239,239,1)), color-stop(100%,rgba(224,224,224,1)));
+    background: -webkit-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(224,224,224,1) 100%);
+    background: -o-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(224,224,224,1) 100%);
+    background: -ms-linear-gradient(top, rgba(239,239,239,1) 0%,rgba(224,224,224,1) 100%);
+    background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(224,224,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#e0e0e0',GradientType=0 );
+    -moz-transition: all 1.3s ease-in-out 0s;
+    -webkit-transition: all 1.3s linear 0s;
+    -o-transition: all 1.3s linear 0s;
+    -ms-transition: all 1.3s linear 0s;
+    transition: all 1.3s linear 0s;
+    -moz-box-shadow: 0 2px 5px rgba(34, 25, 25, 0.22);
+    -webkit-box-shadow: 0 2px 5px rgba(34, 25, 25, 0.22);
+    -o-box-shadow: 0 2px 5px rgba(34, 25, 25, 0.22);
+    -ms-box-shadow: 0 2px 5px rgba(34, 25, 25, 0.22);
+    box-shadow: 0 2px 5px rgba(34, 25, 25, 0.22);
+}
+#goTop.show {
+    bottom: 0;
+}
+
+/*----------- Hotline -------------*/
+.wrap_fixed_bottom {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+
+    bottom: 0;
+    overflow: hidden;
+    height: 38px;
+    background: rgb(237, 237, 237);
+    border-top: solid 1px #C4C4C4;
+}
+.tag_hotline {
+    padding: 0px 23px;
+    text-transform: uppercase;
+    background: #EF1919;
+    font-weight: 700;
+    position: relative;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+}
+.tag_hotline .arrow_hotline {
+    width: 0;
+    height: 0;
+    border: 15px solid #EF1919;
+    border-top: 19px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.main_nav_hotline {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+}
+.main_nav_hotline ul li {
+    border-left: none;
+    float: left;
+    margin-right: 15px;
+    /* border: solid 1px; */
+    font-weight: bold;
+    border-right: solid 1px #D8D8D8;
+    padding-right: 15px;
+    list-style: none;
+}
+
+.nttkm {
+    width: 282px;
+
+    z-index: 99999;
+
+    bottom: 0px;
+    /* display: none; */
+    float: left;
+    /* overflow: hidden; */
+}
+.nttkm-title {
+    height: 38px;
+    background-color:#31B051;
+    line-height: 38px;
+    text-align: center;
+}
+.nttkm-title span {
+    color: white;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 38px;
+
+    line-height: 38px;
+}
+.show_dkntt {
+    cursor: pointer;
+}
+#funfacts{
+    display: none;
+}
+h5 {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.overlay-sec {
+    background: rgba(48, 51, 54, 0.3);
+    padding: 20px 0;
+}
+.testimonials2 p {
+    color: #ffffff;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(51, 51, 51, 0.5);
+}
+.chapter-title {
+    background-color: #31B051;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px
+}
+.chapter-title a{
+    color: #FFF
+}
+.chapter-title a:hover{
+    color: #FFF
+}
+.bold{
+    font-weight: bold;
+}
+.my-row-5 ul{list-style-position: inside;
+}
+.my-row-5 ul li {
+    font-size: 15px;
+    padding: 5px 0px 5px 10px;
+}
+#test{
+    position: absolute;
+    width: 100%;
+    height: 560px;
+    background-color: black;
+    opacity: 0.6
+}
+@media screen and (max-width:991px){
+    .gr1{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .intro{
+        font-size: 20px !important;
+        color: #fff;
+        text-align: center;
+        line-height: 30px;
+    }    
+}
+
+
+#ipt_submit{width:90%;}
+.countdown .line-1{font-size:25px;}
+
+.countdown .countdown-content{
+    display:block;
+    width:491px;
+    margin:0 auto;
+}
+
+.countdown .countdown-section {
+    position: relative;
+    display:inline-block;
+   /* background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png"); */
+    width:90px;
+    height:126px;
+    text-align:center;
+    margin:10px 10px 15px 10px;
+    background: #fff;
+    border-radius: 3%;
+}
+.countdown .countdown-section .countdown-amount{
+    font-size:60px;
+    font-weight:bold;
+    color:#212121;
+    margin-left:5px;
+}
+
+.countdown .countdown-section  .countdown-period{
+    font-size: 23px;
+    color: #212121;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (min-width:500px) and (max-width:557px){
+    .countdown .countdown-section {
+        position: relative;
+        display:inline-block;
+        background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");
+        width:77px;
+        height:126px;
+        text-align:center;
+        margin:10px 10px 15px 10px;
+    }
+    .countdown .countdown-section .countdown-amount{
+        font-size:60px;
+        font-weight:bold;
+        color:#212121;
+        margin-left:5px;
+    }
+}
+
+@media screen and (min-width:421px) and (max-width:499px){
+    .countdown .countdown-section {
+        position: relative;
+        display:inline-block;
+        background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");
+        width:59px;
+        height:80px;
+        text-align:center;
+        margin:10px 10px 15px 10px;
+    }
+    .countdown .countdown-section .countdown-amount{
+        font-size:40px;
+        font-weight:bold;
+        color:#212121;
+        margin-left:5px;
+    }
+    .countdown .countdown-section  .countdown-period{
+        font-size: 15px;
+        color: #212121;
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: bold
+    }
+}
+
+@media screen and (min-width:380px) and (max-width:420px){
+    .countdown .countdown-section {
+        position: relative;
+        display:inline-block;
+        background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");
+        width:50px;
+        height:75px;
+        text-align:center;
+        margin:10px 10px 15px 10px;
+    }
+    .countdown .countdown-section .countdown-amount{
+        font-size:35px;
+        font-weight:bold;
+        color:#212121;
+        margin-left:5px;
+    }
+    .countdown .countdown-section  .countdown-period{
+        font-size: 14px;
+        color: #212121;
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: bold
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:379px){
+    .countdown .countdown-section {
+        position: relative;
+        display:inline-block;
+        background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");
+        width:37px;
+        height:60px;
+        text-align:center;
+        margin:10px 10px 15px 10px;
+    }
+    .countdown .countdown-section .countdown-amount{
+        font-size:23px;
+        font-weight:bold;
+        color:#212121;
+        margin-left:5px;
+    }
+    .countdown .countdown-section  .countdown-period{
+        font-size: 10px;
+        color: #212121;
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: bold
+    }
+}
+
+
+@media screen and (min-width:260px) and (max-width:320px){
+    .countdown .countdown-section {
+        position: relative;
+        display:inline-block;
+        background-image:url("https://lamchuexcel3.pedia.vn/images/cd-background.png");
+        width:24px;
+        height:35px;
+        text-align:center;
+        margin:10px 10px 15px 10px;
+    }
+    .countdown .countdown-section .countdown-amount{
+        font-size:17px;
+        font-weight:bold;
+        color:#212121;
+    }
+    .countdown .countdown-section  .countdown-period{
+        font-size: 5px;
+        color: #212121;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-weight: bold
+    }
+}
+
+
+/**********************************************/
+.wrap_fixed_bottom {
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+ 
+    bottom: 0;
+    overflow: hidden;
+    height: 38px;
+    background: rgb(237, 237, 237);
+	    border-top: solid 1px #C4C4C4;
+}
+.tag_hotline {
+    padding: 0px 23px;
+    text-transform: uppercase;
+    background: #EF1919;
+    font-weight: 700;
+    position: relative;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+	    color: #fff;
+}
+.tag_hotline .arrow_hotline {
+    width: 0;
+    height: 0;
+    border: 15px solid #EF1919;
+    border-top: 19px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.main_nav_hotline {
+    float: left;
+    //margin-left: 40px;
+    height: 38px;
+    line-height: 38px;
+}
+.main_nav_hotline ul li {
+    border-left: none;
+    float: left;
+    margin-right: 15px;
+    /* border: solid 1px; */
+    font-weight: bold;
+    border-right: solid 1px #D8D8D8;
+    padding-right: 15px;
+	list-style: none;
+}
+
+.nttkm {
+    width: 282px;
+    
+    z-index: 99999;
+   
+    bottom: 0px;
+    /* display: none; */
+    float: left;
+    /* overflow: hidden; */
+}
+.nttkm-title {
+    height: 38px;
+    background-color:#31B051;
+    line-height: 38px;
+    text-align: center;
+}
+.nttkm-title span {
+    color: white;
+
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 38px;
+  
+    line-height: 38px;
+}
+.show_dkntt {
+    cursor: pointer;
+}
+
+
+
+
+
+
+

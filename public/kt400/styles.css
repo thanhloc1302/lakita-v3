@@ -1,0 +1,207 @@
+
+.btn {
+    background-image: none;
+}
+.btn-success{
+    background-color: #31B051;
+}
+.navbar{
+    padding-top: 15px;
+}
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: none;
+    color:#fff;
+    font-size: 15px;
+}
+.navbar-toggle, .navbar-toggle .icon-bar{
+    border: 1px solid #fff;
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.nav-menu{
+    padding-left: 9%;
+}
+.play_hidden {
+    position: absolute;
+    bottom: 0%;
+    left: 31.3%;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.2;
+    width: 485px;
+    height: 300px;
+    line-height: 300px;
+    z-index: 1;
+    cursor: pointer;
+}
+.play-btn{
+    position: absolute;
+    bottom: 11%;
+    left: 40%;
+    width: 250px;
+    height: 142px;
+    /*    z-index: 10000000;
+        cursor: pointer;*/
+}
+
+@media screen and (min-width: 1400px) {
+    .play_hidden {
+        bottom: 22%;
+        left: 38.3%;
+    }
+    .play-btn{
+        bottom: 33%;
+    left: 44%;
+    }
+}
+
+
+/************************************* slide  cảm nhận học viên **********************/
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    margin-top: -15px;
+}
+.carousel-inner img {
+    width: 200px;
+    height: 200px;
+    border-radius: 95%;
+    border: 5px solid #ccc;
+    margin-top: 50px;
+}
+.carousel-inner p {
+    color: #31B051;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.carousel-inner #cmt {
+    font-size: 16px;
+    color: #fff;
+}
+#carousel-example-generic {
+    background: url('img/index2/background-slide.jpg') center;
+    padding-bottom: 35px;
+}
+#carousel-example-generic h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+#carousel-example-generic .img-responsive{
+    max-width: 50%;
+}
+.fa-chevron-right, .fa-chevron-left{
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    z-index: 82;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+.fa-chevron-left{
+    left: 10px;
+}
+.fa-chevron-right{
+    right:10px;
+}
+
+
+
+/*=============================== register ====================================*/
+.register{
+    margin-bottom: 50px;
+}
+.register .hr{
+    border: 1px solid #38bb6b;
+    height: 1px;
+    margin-bottom: 20px;
+}
+.register .register-notice{
+    color:#cecbcb;
+}
+.register .price_root{
+    padding: 20px 10px;
+    border: 1px solid #38bb6b;
+    font-size: 30px;
+    border-radius: 25px 0 0 25px;
+    color:#38bb6b;
+    text-decoration: line-through;
+}
+.register .price_sale{
+    padding: 20px 10px;
+    border: 1px solid #38bb6b;
+    font-size: 30px;
+    border-radius: 0px 25px 25px 0px;
+    margin-left: -5px;
+    background-color: #38bb6b;
+    color: #fff;
+}
+.register-notice-2{
+    //font-family: HelveticaNeue-CondensedBold;
+    color:#6a6a6a;
+    margin-top: 55px;
+}
+.count-down .num-wrap{
+    background-color: #38bb6b;
+    border-radius: 10px;
+    width: 110%;
+    margin-top: 25px;
+}
+.num-day, .num-hour, .num-minute, .num-second{
+    font-size: 80px;
+    margin-bottom: -15px;
+    color: #fff;
+    padding: 0px 5px;
+}
+.txt-time{
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.my-form{
+    margin-bottom: 5px;
+}
+.my-form .form-input{
+    padding: 14px 0px;
+    border: none;
+    width: 100%;
+    padding-left: 5px;
+}
+.my-btn{
+    background-image: none;
+    background-color: #38bb6b;;
+    border-radius: 0;
+}
+.register .warning{
+    margin-top: 40px;
+}
+.register .warning .col-xs-12{
+    background-color: #ffe0b2;
+    padding: 10px;
+}
+.register .warning .col-xs-12 > div {
+    float: left;
+
+}
+.register .warning-1{
+    color: #f57c00;
+    width: 10%;
+}
+.register .warning-2{
+    font-family: helvetica-neue-medium;
+    font-size: 24px;
+    width: 13%;
+}
+.register .warning-3{
+    width: 70%;
+}
+
+
+

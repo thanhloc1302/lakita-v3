@@ -1,0 +1,856 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto);
+div.header div.join-us,
+div.header h1 {
+    text-transform: uppercase
+}
+
+div#link_giangvien:after,
+div.header:after,
+div.section-3:after {
+    content: "";
+    top: 0;
+    left: 0
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+div.header {
+    position: relative;
+    background-image: url(../kt210/img/bg-header.png)
+}
+
+div.header:after {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+    z-index: 9
+}
+
+div.header * {
+    position: relative;
+    z-index: 9999;
+    color: #fff
+}
+
+div.header div.logo {
+    width: 142px;
+    height: 36px;
+    margin-left: 10%;
+    margin-top: 20px
+}
+
+div.header div.logo img {
+    display: block;
+    width: 100%
+}
+
+div.header h1.course {
+    margin-top: 50px;
+    font-size: 35px
+}
+
+div.header h1.course_name {
+    margin-top: 25px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px
+}
+
+div.header h1.course_audience {
+    margin-top: 27px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+div.header div.join-us {
+    margin: 50px auto;
+    border: 2px solid #fff;
+    width: 200px;
+    height: 45px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 45px
+}
+
+div.header div.join-us a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block
+}
+
+div.header div.join-us a:hover,
+div.header div.join-us a:visited {
+    color: #fff
+}
+
+div.section-2 {
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+div.section-2 div.col-right h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 22px
+}
+
+div.section-2 div.col-right p {
+    margin-top: 15px;
+    line-height: 22px
+}
+
+div.section-2 div.col-right p i {
+    color: #00a148
+}
+
+div.section-3 {
+    background-size: cover;
+    padding-top: 25px;
+    position: relative;
+    background-image: url(../kt210/img/section-3.png)
+}
+
+div.section-3:after {
+    display: block;
+    position: absolute;
+    background: #003618;
+    width: 100%;
+    height: 100%;
+    opacity: .48;
+    z-index: 9
+}
+
+div.section-3 * {
+    position: relative;
+    z-index: 9999;
+    color: #fff
+}
+
+div.section-3 h1 {
+    margin-left: 25px;
+    background-color: #00a148;
+    padding: 15px 8px;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 700
+}
+
+div.section-3 div.list-hight-light {
+    width: 90%;
+    background-color: #a19b46
+}
+
+div.section-3 div.list-hight-light h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px
+}
+
+div.section-3 div.list-hight-light p {
+    height: 130px;
+    margin-top: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 20px
+}
+
+div.section-4 {
+    background: url(../kt210/img/section-4.png);
+    background-size: cover;
+    padding-top: 55px;
+    padding-bottom: 30px
+}
+
+div.section-4 h1.course-content,
+div.section-4 p.course-content {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #00a148;
+    padding: 10px 35px;
+    color: #fff;
+    display: inline-block
+}
+
+div.section-4 p.course-content {
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: none;
+    padding: 10px
+}
+
+div.section-4 div.list-chapter {
+    background: #fff;
+    margin-top: 15px;
+    padding-bottom: 20px
+}
+
+div.section-4 div.list-chapter div.col-md-1 h1 {
+    font-size: 51px;
+    font-weight: 700;
+    text-align: right;
+    margin-top: 5px
+}
+
+div.section-4 div.list-chapter p.chapter-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+div.section-4 div.list-chapter p.learn {
+    margin-top: 8px;
+    line-height: 20px
+}
+
+div#link_giangvien {
+    padding: 50px 0;
+    position: relative;
+    background-image: url(../kt210/img/section-5.png);
+    background-size: cover
+}
+
+div#link_giangvien:after {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    z-index: 9
+}
+
+div#link_giangvien * {
+    position: relative;
+    z-index: 9999;
+    color: #fff
+}
+
+div#link_giangvien #gr4-gv {
+    text-align: center;
+    color: #31B051;
+    font-size: 42px;
+    font-weight: 700
+}
+
+div#link_giangvien #GV {
+    margin-top: 1px;
+    text-align: center
+}
+
+div#link_giangvien #GV img {
+    border-radius: 95%;
+    margin: 10px auto 0;
+    border: 5px solid #ccc;
+    width: 200px
+}
+
+div.section-6:after,
+div.testimonial:after {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: ""
+}
+
+div#link_giangvien #kinhnghiem h1 {
+    font-size: 34px;
+    font-weight: 700;
+    padding-left: 20px
+}
+
+div#link_giangvien #kinhnghiem p {
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: 20px
+}
+
+div#link_giangvien #kinhnghiem ul {
+    margin-top: 10px;
+    list-style-type: none
+}
+
+div#link_giangvien #kinhnghiem ul li {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 25px
+}
+
+div#link_giangvien #kinhnghiem ul li i {
+    font-size: 25px
+}
+
+div.section-6 {
+    position: relative;
+    background-image: url(../kt210/img/bg-section-6.png);
+    padding-top: 20px;
+    background-size: cover
+}
+
+div.section-6:after {
+    display: block;
+    position: absolute;
+    background: #000;
+    opacity: .7;
+    z-index: 9
+}
+
+div.section-6 h1,
+div.section-6 h2 {
+    display: inline-block;
+    font-weight: 700
+}
+
+div.section-6 * {
+    position: relative;
+    z-index: 9999;
+    color: #fff
+}
+
+div.section-6 h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    background-color: #00a148;
+    padding: 10px 35px
+}
+
+div.section-6 h2 {
+    font-size: 20px;
+    margin-top: 25px
+}
+
+div.section-6 div.image-learning {
+    margin-top: 55px
+}
+
+div.section-6 div.image-learning img {
+    display: block;
+    margin: 0 auto
+}
+
+div.section-6 div.list-gift {
+    margin-top: 35px;
+    padding-bottom: 35px
+}
+
+div.section-6 div.list-gift div.gift p {
+    margin-top: 10px;
+    line-height: 20px
+}
+
+div.testimonial {
+    position: relative;
+    background-image: url(../kt210/img/bg-section-7.png);
+    background-size: cover;
+    padding: 40px 0
+}
+
+div.testimonial:after {
+    display: block;
+    position: absolute;
+    background: #001511;
+    opacity: .75;
+    z-index: 9
+}
+
+div.testimonial * {
+    position: relative;
+    z-index: 9999;
+    color: #fff
+}
+
+div.testimonial h2 {
+    font-size: 28px;
+    text-align: center
+}
+
+div.testimonial div.carousel {
+    margin-top: 20px
+}
+
+div.testimonial div.carousel div.carousel-inner div.item div.student-avatar {
+    width: 103.75px;
+    height: 98.77px;
+    margin: 0 auto
+}
+
+div.testimonial div.carousel div.carousel-inner div.item p.student-name {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px
+}
+
+div.testimonial div.carousel div.carousel-inner div.item p.student-org {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px
+}
+
+div.testimonial div.carousel div.carousel-inner div.item p.student-content {
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: justify
+}
+
+div.testimonial div.carousel a.carousel-control {
+    background: 0 0
+}
+
+div.testimonial div.carousel a.right span.glyphicon-chevron-right {
+    margin-right: -20%;
+    color: red
+}
+
+div.testimonial div.carousel a.left span.glyphicon-chevron-left {
+    margin-left: -20%;
+    color: red
+}
+
+div.register {
+    position: relative;
+    background-image: url(../kt210/img/bg-footer.png)
+}
+
+div.register:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .8
+}
+
+div.register div.container * {
+    position: relative;
+    z-index: 99999;
+    color: #dcdcdc
+}
+
+div.register div.container h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    color: #dcdcdc;
+    font-weight: 700;
+    margin-top: 40px
+}
+
+div.register div.container div.price-root {
+    padding-right: 0
+}
+
+div.register div.container div.price-root p.price-root {
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "Open Sans";
+    color: #242424;
+    font-weight: 700;
+    text-decoration: line-through;
+    background-color: #dcdcdc;
+    border-radius: 330px 0 0 330px;
+    text-align: center
+}
+
+div.register div.container div.price-sale {
+    border: 1px solid #fff;
+    border-radius: 0 330px 330px 0;
+    height: 60px
+}
+
+div.register div.container div.price-sale p.price-sale-text {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #dcdcdc;
+    font-weight: 700
+}
+
+div.register div.container div.price-sale p.price-sale {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Open Sans";
+    color: #d84315;
+    font-weight: 700
+}
+
+div.register div.container p.apply {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Open Sans";
+    color: #dcdcdc;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px
+}
+
+div.register div.container ul {
+    display: inline-block;
+    margin-top: 50px
+}
+
+div.register div.container ul li {
+    float: left;
+    padding: 15px 10px;
+    background-color: #f44336;
+    margin-right: 15px
+}
+
+div.register div.container ul li p {
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700
+}
+
+div.register div.container ul li p.time {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+div.register div.container ul:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+div.register div.container p.note {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #dcdcdc;
+    text-align: center;
+    margin-top: 30px
+}
+
+div.register div.container p.contact-us,
+div.register div.container p.hotline {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px
+}
+
+div.register div.container div.form-rgt {
+    margin-top: 25px
+}
+
+div.register div.container div.form-rgt div.form-group input {
+    padding: 20px;
+    color: #000;
+    background-color: #fdfdfd
+}
+
+div.register div.container div.form-rgt button {
+    font-size: 19px;
+    line-height: 22px;
+    background-color: #136a42;
+    font-family: "Open Sans";
+    color: #dcdcdc;
+    font-weight: 700;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 35px;
+    text-transform: uppercase
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    div.highlight div.highlight-list div.highlight-icon {
+        margin-top: 40px
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:768px) {
+    div.header h1.course_name {
+        font-size: 55px
+    }
+    div.header h1.course_audience {
+        font-size: 20px
+    }
+    div.section-3 div.list-hight-light {
+        margin-bottom: 5px
+    }
+    div.section-3 div.list-hight-light p {
+        height: auto
+    }
+    div.section-4 div.list-chapter {
+        margin: 15px auto 0;
+        width: 90%
+    }
+    div.section-4 div.list-chapter div.col-md-1 h1 {
+        text-align: left
+    }
+    div#link_giangvien #kinhnghiem h1 {
+        text-align: center;
+        margin-top: 10px
+    }
+    div#link_giangvien #kinhnghiem p {
+        text-align: center
+    }
+    div.list-gift div.gift {
+        margin-top: 30px
+    }
+}
+
+@media screen and (max-width:500px) {
+    div.header h1.course {
+        font-size: 22px
+    }
+    div.header h1.course_name {
+        font-size: 40px;
+        line-height: 46px
+    }
+    div.header h1.course_audience {
+        font-size: 18px;
+        line-height: 25px
+    }
+    div.header h1.margin-top-15 {
+        margin-top: 0!important
+    }
+    div.section-3 div.list-hight-light {
+        margin-bottom: 5px
+    }
+    div.section-4 div.list-chapter div.col-md-1 h1 {
+        text-align: left
+    }
+    div#link_giangvien #kinhnghiem h1 {
+        text-align: center;
+        margin-top: 10px
+    }
+    div#link_giangvien #kinhnghiem p {
+        text-align: center
+    }
+    div#link_giangvien #kinhnghiem li {
+        padding: 0 15px
+    }
+    div.list-gift div.gift {
+        margin-top: 30px
+    }
+}
+
+.margin-top-15 {
+    margin-top: 15px!important
+}
+
+.margin-top-20 {
+    margin-top: 20px!important
+}
+
+.margin-top-30 {
+    margin-top: 30px!important
+}
+
+.margin-top-40 {
+    margin-top: 40px!important
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px
+}
+
+.bg-gray {
+    background-color: #efefef
+}
+
+.flex {
+    display: flex;
+    align-items: center
+}
+
+h2.missing-value {
+    font-size: 32px;
+    line-height: 34px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Open Sans";
+    color: #27bc72;
+    font-weight: 700;
+    margin-left: 6%
+}
+
+@media screen and (max-width:500px) {
+    h2.missing-value {
+        font-size: 22px
+    }
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden
+}
+
+div.container-fluid {
+    padding-right: 0;
+    padding-left: 0
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 12px
+}
+
+::-webkit-scrollbar-track {
+    background: #ecf8ef;
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #31B051;
+    border-radius: 10px
+}
