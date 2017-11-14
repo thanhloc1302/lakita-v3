@@ -61,7 +61,8 @@ div.Testimonials .img{max-height:244px;}
 .TestimonialHighlight>img{height:480px;}
 .margintop10{margin-top:10px;}
 #show_modal{font-size:14px;}
-.one_course{//height:400px;}
+.one_course{
+}
 .my-row-1 h1{font-size:22px;}
 .listCourse .courseName{margin:20px 3% 0px;}
 div.Testimonials .testimonial{font-size:27px;}
@@ -83,7 +84,9 @@ div.navBar .navbar .navbar-header>a{margin-left:50px;}
 .my-form-group-1 .remember{float:left;width:11% !important;}
 .my-btn{padding:10px 16px;}
 #myModal3 .my-container-1 > p{margin-bottom:0px;}
-.one_course{//height:350px;}
+.one_course{
+    
+}
 div.Testimonials .img{max-width:332px;max-height:244px;}
 .listCourse .courseName{margin-bottom:8px;}
 }

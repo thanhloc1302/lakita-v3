@@ -1,26 +1,25 @@
-/**************************************************** POPUP ĐĂNG NHẬP ******************************************************************/
-#myModal3 {
+#modal_login {
     font-family: RobotoCondensed-Regular;
 
 }
-#myModal3 .modal-content{
+#modal_login .modal-content{
     background: #e4e4e4;
     padding: 5px 10px 10px 10px;
 }
-#myModal3 li a {
+#modal_login li a {
     color:#999999;
 }
-#myModal3 li.active a {
+#modal_login li.active a {
     color:#444444;
 }
-#myModal3 h4{
+#modal_login h4{
     color:#848484;
 }
-#myModal3 .my-container-1{
+#modal_login .my-container-1{
     padding: 10px;
     background: #fff;
 }
-#myModal3 .my-container-1 > p{
+#modal_login .my-container-1 > p{
     color: #8a8a8a;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -41,6 +40,8 @@
     width: 20%;
     text-align: right;
 }
+
+
 .my-form-group-1 .my-form-control-1:nth-child(2){
     padding-left: 10px;
     width: 70%;
@@ -52,8 +53,42 @@
     border: none;
     height: 28px;
     padding-left: 10px;
-    width: 91%;
+
 }
+
+@media screen and (min-width:992px){
+    .my-form-group-1 .my-form-control-1 input{
+        width: 90%;
+    }
+}
+@media screen and (min-width:408px) and (max-width:767px){
+    .my-form-group-1 .my-form-control-1 input{
+        width: 90%;
+    }
+    .my-form-group-1 .my-form-control-1:nth-child(2){
+        padding-left: 10px;
+        width: 95%;
+    }
+}
+@media screen and (max-width:407px){
+    .my-form-group-1 .my-form-control-1 input{
+        width: 88%;
+    }
+    .my-form-group-1 .my-form-control-1:nth-child(2){
+        padding-left: 10px;
+        width: 95%;
+    }
+}
+@media screen and (min-width:700px){
+    #back_to_login{
+        width: 50%
+    }
+    #forgetPassBtn{
+        width: 50%
+    }
+}
+
+
 
 .my-form-group-1 .my-form-control-1 input.checkbox1 {
     width: auto;
@@ -99,14 +134,8 @@
 .social-login > a:hover{
     color:#fff;
 }
-button.close {
-    margin-top: -2px;
-    border-radius: 50%;
-    border: 1px solid #000;
-    width: 37px;
-    height: 37px;
-}
-#myModal3 .required{
+
+#modal_login .required{
     margin-right: -11px;
     margin-top: -7px;
     color:#acacac;
@@ -131,3 +160,14 @@ button.close {
 #mediaspace{
     left:0px;
 }
+
+.clr{
+    clear:both;
+}
+
+#is_remember,#agree_term{
+    float: inherit;
+}
+
+
+

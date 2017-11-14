@@ -15,42 +15,18 @@ class MY_Controller extends CI_Controller {
         }
         if (!isset($user_id)) {
             $this->load->model('facebook_model');
-            $this->data['facebook_login_url'] = $this->facebook_model->loginUrl();
+            $data['facebook_login_url'] = $this->facebook_model->loginUrl();
         }
         if (isset($user_id)) {
             $this->_check_exist_login($user_id);
-            //$table, $select, $where, $limit, $offset, $order, $group_by=''
-            $student_ids1 = $this->lib_mod->load_all('student_courses', 'student_id', array('courses_id' => 37, 'trial_learn' => 0));
-            $flag1 = false;
-            foreach ($student_ids1 as $value) {
-                if ($value['student_id'] == $user_id) {
-                    $flag1 = true;
-                }
-            }
-            if ($flag1) {
-                $this->data['have_news2'] = '2';
-            }
-
-            //$table, $select, $where, $where_in, $where_not_in, $limit, $offset, $order
-            $student_ids2 = $this->lib_mod->load_all_wheres('student_courses', 'student_id', array('trial_learn' => 0), array('courses_id' => array(37, 10, 41, 16)), '', '', '', '');
-            // print_r($student_ids2);
-
-            $flag2 = false;
-            foreach ($student_ids2 as $value) {
-                if ($value['student_id'] == $user_id) {
-                    $flag2 = true;
-                }
-            }
-            if ($flag2) {
-                $this->data['have_news3'] = '3';
-            }
-
-
-            //locnt 
+            //locnt
             set_cookie('first_time_login', time(), 92536000);
             if (!is_null(get_cookie('first_time_login')) && !is_null(get_cookie('date_read_noti'))) {
                 $last_read_noti = get_cookie('date_read_noti');
-                $this->data['have_news'] = $this->lib_mod->count_in('notification', 'student_id', array(0, $user_id), array('time >' => $last_read_noti, 'time <=' => time()));
+                $this->load->model('notification_model');
+                $hava_news_input['where_in'] = array('student_id' => array(0, $user_id));
+                $have_news_inout['where'] = array('time >' => $last_read_noti, 'time <' => time());
+                $data['have_news'] = count($this->notification_model->load_all($hava_news_input));
             } else {
                 $this->load->helper('cookie');
                 $cookie = array(
@@ -60,14 +36,14 @@ class MY_Controller extends CI_Controller {
                     'secure' => TRUE
                 );
                 set_cookie($cookie);
-                $this->data['have_news'] = '1';
+                $data['have_news'] = '1';
             }
 
-            if ($this->data['have_news'] != 0) {
-                $this->data['noti'] = $this->lib_mod->load_all_wheres('notification', '', '', array('student_id' => array(0, $user_id)), '', $this->data['have_news'], '', array('time' => 'DESC'));
+            if ($data['have_news'] != 0) {
+                $data['noti'] = $this->lib_mod->load_all_wheres('notification', '', '', array('student_id' => array(0, $user_id)), '', $data['have_news'], '', array('time' => 'DESC'));
 
                 $list_creator = array();
-                foreach ($this->data['noti'] as $key1 => $value1) {
+                foreach ($data['noti'] as $key1 => $value1) {
                     if (!in_array($value1['creator'], $list_creator)) {
                         array_push($list_creator, $value1['creator']);
                     }
@@ -75,16 +51,16 @@ class MY_Controller extends CI_Controller {
                 if (empty($list_creator)) {
                     $list_creator = '2626';
                 }
-                $this->data['creator_infor'] = $this->lib_mod->load_all_wheres('student', '', '', array('id' => $list_creator), '', '', '', '');
-                $this->data['creator_infor1'] = $this->lib_mod->load_all_wheres('student', '', '', array('id' => $list_creator), '', '', '', '');
+                $data['creator_infor'] = $this->lib_mod->load_all_wheres('student', '', '', array('id' => $list_creator), '', '', '', '');
+                $data['creator_infor1'] = $this->lib_mod->load_all_wheres('student', '', '', array('id' => $list_creator), '', '', '', '');
             }
             //hết locnt
         }
-        $this->data['setting'] = $this->lib_mod->detail('setting', array('id' => 1));
-        $this->data['category_news'] = $this->lib_mod->load_all('category_3s', '', array('status' => 1, 'type_id' => 4, 'parent' => 0), '', '', array('sort' => 'desc'));
-        $this->data['courses_right'] = $this->lib_mod->load_all('courses', '', array('status' => 1, 'hot' => 1), 8, '', array('sort' => 'desc'));
-        $this->data['courses_top'] = $this->lib_mod->load_all('courses', '', array('status' => 1), '', '', array('sort' => 'desc'));
+        $this->load->model('setting_model');
+        $data['setting'] = $this->setting_model->load_all(array('where' => array('id' => 1)));
+        //    $data['category_news'] = $this->lib_mod->load_all('category_3s', '', array('status' => 1, 'type_id' => 4, 'parent' => 0), '', '', array('sort' => 'desc'));
 
+        $this->load->vars($data);
         /*
          * Campaign giờ vàng giá sốc
          */
